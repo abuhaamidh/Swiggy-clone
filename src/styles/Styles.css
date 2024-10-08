@@ -1,0 +1,217 @@
+
+.box{
+   background-color: #ff5200;
+   height: 720px;
+  }
+  
+  .top{
+    height: 100px;
+    background-color: #ff5200;
+  }
+
+  .logo{
+    height: 70px;
+    margin-left: 120px;
+    margin-top: 15px;
+  }
+
+  .buttons{
+    
+    cursor: pointer;
+    margin-left: 60%;
+    margin-top: -55px;
+    display: flex;
+    justify-content: space-around;
+
+    }
+ 
+    #btn1{
+      font-family:Georgia, 'Times New Roman', Times, serif;
+      font-weight: bolder;
+      font-size: 16px;
+      border-radius: 15px;
+      background-color:#ff5200;
+      border: 1px solid  white;
+      height: 55px;
+      width: 130px;
+      
+    }  
+
+    #btn1:hover{
+      color: white;
+    
+    }
+
+    #btn2{
+      font-family:Georgia, 'Times New Roman', Times, serif;
+      color:white;
+      border-radius: 15px;
+      font-weight: bold;
+      border: 1px solid  black;
+      background-color:black;
+      height: 55px;
+      width: 130px;
+      margin-left: -300px;
+    }  
+
+    #btn2:hover{
+      color:#ff5200 ;
+    }
+    
+    .question{
+      color: white;
+      font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+      font-weight:bold;
+      cursor: context-menu;
+      text-align: center;
+      margin-top: 25px;
+    }
+    .dropdown-center{
+      margin-left: 25%;
+      margin-top: 50px;
+      
+    }
+
+    .eydl-dd{
+      width: 250px;
+      height: 65px;
+      border-radius: 15px;
+      text-align: center;
+      border: 2px solid white;
+
+    }
+
+ #eydl{
+  color:grey;
+  margin-top:10px;
+  margin-left:-10px;
+}
+  
+.search{
+  margin-left: 30px;
+  width: 500px;
+  outline: none;
+  height: 65px;
+  border-radius: 15px;
+  padding-left: 10px;
+  border: none;
+}
+
+#search-btn{
+  height: 64px;
+  width: 50px;
+  border: none;
+  background-color: whitesmoke;
+  border-radius: 15px;
+  color:grey;
+  margin-left: -45px;
+}
+
+.mid-img{
+  margin-left: 10%;
+  margin-top: 2%;
+}
+
+.mid-image{
+  height:400px;
+  width: 600px;
+  border-radius: 25px;
+}
+
+.mid-image1{
+  height:400px;
+  width: 600px;
+  border-radius: 25px;
+}
+
+.huge-img{
+  height: 420px;
+  width: 90%;
+  margin-left: 20px;
+  margin-top: 100px;
+  color: #eaf5e4;
+}
+
+.bottom-img{
+  height:280px;
+  width: 100%;
+  margin-top: 50px;
+}
+
+.best-restaurant{
+  color:black;
+  margin-left:4.5%;
+  margin-top:4%;
+  font-size: 25px;
+  font-weight:bolder;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.cards{
+  margin-top: 2%;
+  margin-left:3%;
+  display: flex;
+}
+.card-1{
+  border-radius: 30px;
+  width:20rem;
+  border: 1px solid  grey;
+}
+
+.title-name{
+  margin-top: -120px;
+}
+#titlename-icon{
+}
+
+.content{
+  margin-top: 10px;
+
+}
+
+.cuisine-type{
+  color:grey;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+#inner-cuisine{
+  font-size: 12px;
+  color:grey;
+ 
+}
+.content-txt{
+  color:white;
+  font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  width:18rem;
+  height: 35px;
+  border-radius:5px;
+  padding: 5px;
+  background-color: rgb(27, 166, 114) ;
+  font-size: 15px;
+  opacity: 85%;
+  padding-left: 25px;
+  font-weight: bold;
+}
+#contenttxt-icon{
+margin-top: -2px;
+margin-left: -20px;
+position: absolute;
+}
+#offer{
+  font-size: 12px;
+  margin-left:30px;
+}
+#offer-1{
+  font-size: 12px;
+  margin-left:58px;
+}
+.content-txt-1{
+  color:rgb(27, 166, 114);
+  font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  width:18rem;
+  height: 35px;
+  border-radius:5px;
+  padding: 5px;
+  background-color: rgb(208, 246, 232);
+  font-size: 15px;
+  padding-left: 5px;
+
+}

@@ -1,0 +1,38 @@
+[
+    {
+        "name":"Aaha Bhojanam",
+        "image":"https://lh3.googleusercontent.com/A952pN2KF0hqKIeSHASVAI3xt8_gKpgifTHrr_1heF4zwtoz7CBX7ctkLMbSM8sQBofkfkK_QyX0qeIUzhH9cwzI6XXPITaXjOso3daO=w300-rw",
+        "cuisine":"Andhra~North Indian",
+        "location":"Brookfield, Banglore",
+        "offer":"10%",
+        "bankoffer":"15%",
+        "rating":"4.3"
+    },
+    {
+        "name":"Dhaba Estd 1986 Delhi",
+        "image":"https://lh3.googleusercontent.com/huiEVUbdV4nvWfd0pDZj0pfdmuXuPTAo0nHVC-B7PEz-L9W-3H76P_-H41CXg42hc5nLpJ0fEDmAOoVukmnLHhubS21mdObYnpDdW6Tv=w1200-rw",
+        "cuisine":"Mughlai~North Indian",
+        "location":"Marathahalli, Bangalore",
+        "offer":"25%",
+        "bankoffer":"10%",
+        "rating":"4.0"
+    },
+    {
+        "name":"Shao Radisson Blu",
+        "image":"https://b.zmtcdn.com/data/pictures/4/52374/aafeb7ba52e3f8b3d9c8021940d25220.jpg?fit=around|750:500&crop=750:500;*,*",
+        "cuisine":"Japanese~Thai",
+        "location":"Outer ring road, Bangalore",
+        "offer":"30%",
+        "bankoffer":"5%",
+        "rating":"4.2"
+    },
+    {
+        "name":"The Big Baadshaah",
+        "image":"https://lh3.googleusercontent.com/p/AF1QipOCYTOI_DUYKWEEkdKJoEyp-m7QozhbBipG2YO3=s1360-w1360-h1020",
+        "cuisine":"Italian~persian~Pan asian",
+        "location":"Marathahalli, Bangalore",
+        "offer":"25%",
+        "bankoffer":"10%",
+        "rating":"3.9"
+    }
+]
