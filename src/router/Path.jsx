@@ -8,7 +8,7 @@ import Foodmenu from '../Pages/Foodmenu'
 
 
 
-function Router() {
+function Path() {
   return (
     <BrowserRouter>
     <Routes>
@@ -24,4 +24,4 @@ function Router() {
   )
 }
 
-export default Router
+export default Path
