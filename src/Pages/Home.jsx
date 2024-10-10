@@ -4,6 +4,8 @@ import { useNavigate } from 'react-router-dom'
 import { Dropdown } from 'bootstrap'
 import Navbar from './Navbar'
 import { TbSearch } from "react-icons/tb";
+import { ImLocation } from "react-icons/im";
+import { IoIosArrowDown } from "react-icons/io";
 
 
 
@@ -22,11 +24,11 @@ function Home() {
   return (
     <div class="box">
     <Navbar/>
-            <h1 class = "question"> Hungry ?</h1>
+            <h1 class = "question"> Order food & groceries. Discover best restaurants. Swiggy it!</h1>
 
             <div class="dropdown-center" >
   <button class ="eydl-dd" onClick ={()=>productDisplay()} type="button" data-bs-toggle="dropdown" aria-expanded="false">
-    <p id='eydl'>Enter your delivery location </p>
+    <p id='eydl'> <ImLocation style={{marginTop:'-3px'}}/> Enter your delivery location <IoIosArrowDown style={{marginLeft:'25px'}}/></p>
   </button>
   <ul class="dropdown-menu">
     <li><a class="dropdown-item" href="#">Marathalli</a></li>

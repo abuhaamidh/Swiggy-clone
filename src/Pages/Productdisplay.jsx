@@ -6,17 +6,34 @@ import { useLocation } from 'react-router-dom'
 import Data from "../json/product.json"
 import { TbCircleDashedPercentage } from "react-icons/tb";
 import { MdStars } from "react-icons/md";
+import axios from 'axios'
+
 
 function Productdisplay() {
   const [product,setProduct] = useState()
   const usenavigate = useNavigate()
   const uselocation = useLocation();
+  const [data,setData] = useState()
 
   useEffect(()=>{
     setProduct(Data)
   },[])
 
-  
+  function getMethod(){
+    axios.get("https://food-power.glitch.me/restaurants?limit=5&lastDeliveryTime=0",{
+      headers:{
+        authorization : 'Bearer '+"a123123"
+      }
+    }).then((response)=>{
+        console.log(response.data)
+    }).catch((err)=>{
+      console.log(err)
+    })
+  }
+
+  useEffect(()=>{
+    getMethod()
+  },[])
 
   return (
     <div>
