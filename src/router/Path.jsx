@@ -16,7 +16,7 @@ function Path() {
         <Route  path= "/login" element={<Login/>}/>
         <Route  path= "/navbar" element={<Navbar/>}/>
         <Route path= "/productdisplay" element={<Productdisplay/>}/>
-        {/* <Route path= "/foodmenu" element={<Foodmenu/>}/> */}
+         <Route path= "/foodmenu" element={<Foodmenu/>}/> 
         
         
     </Routes>
