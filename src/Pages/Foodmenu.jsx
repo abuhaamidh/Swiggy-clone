@@ -4,6 +4,7 @@ import { MdStars } from "react-icons/md";
 import { IoMdArrowDropdown } from "react-icons/io";
 import { TfiPin } from "react-icons/tfi";
 import { BsFillRecordFill } from "react-icons/bs";
+import { IoSearchOutline } from "react-icons/io5";
 
 function Foodmenu() {
   return (
@@ -28,7 +29,7 @@ function Foodmenu() {
   <h1 id='deals'>Deals for you</h1>
   <div class='deals'>
 
-  <div id="carouselExampleIndicators" class="carousel slide" style={{border:'1px solid rgb(195, 194, 194)', height:'120px' , maxWidth:'400px', borderRadius:'30px', marginLeft:'35%'}}>
+  <div id="carouselExampleIndicators" class="carousel slide" style={{border:'1px solid rgb(195, 194, 194)', height:'110px' , maxWidth:'400px', borderRadius:'30px', marginLeft:'35%'}}>
   <div class="carousel-indicators" style={{ backgroundColor:'rgb(222, 219, 219)', borderRadius:'20px'}}>
     <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
     <button style={{color:'red'}}type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
@@ -53,7 +54,9 @@ function Foodmenu() {
   </div>
  
 </div>
-<p style={{marginLeft:'45%', marginTop:'30px', fontWeight:'bold'}}><BsFillRecordFill style={{color:'#ff5200', marginTop:'-5px'}}/><BsFillRecordFill style={{color:'#ff5200', marginTop:'-5px'}}/> M E N U <BsFillRecordFill style={{color:'#ff5200', marginTop:'-5px'}}/><BsFillRecordFill style={{color:'#ff5200', marginTop:'-5px'}}/></p>
+<p style={{marginLeft:'45%', marginTop:'20px', fontWeight:'bold'}}><BsFillRecordFill style={{color:'#ff5200', marginTop:'-5px'}}/><BsFillRecordFill style={{color:'#ff5200', marginTop:'-5px'}}/> M E N U <BsFillRecordFill style={{color:'#ff5200', marginTop:'-5px'}}/><BsFillRecordFill style={{color:'#ff5200', marginTop:'-5px'}}/></p>
+  <input class="sod" placeholder='Search for dishes' ></input><IoSearchOutline style={{marginLeft:'-35px', marginTop:'-5px'}} />
+  <p id='sod-menu'>MENU</p>
   </div>
 </div>
 </div>

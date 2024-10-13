@@ -400,7 +400,7 @@ color:#ff5200;
 
 
 .shop-info{
-  width: 50%;
+  width: 57%;
   margin-left:20.5%;
   margin-top:20px;
   border-radius:15px;
@@ -457,3 +457,30 @@ color:#ff5200;
   font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
  
  }
+.sod{
+  width: 56%;
+  height: 50px;
+  margin-left:21%;
+  border-radius: 12px;
+  border:1px solid whitesmoke;
+  background-color: rgb(230, 230, 230);
+  text-align: center;
+  color: black;
+  font-weight: bold;
+}
+#sod-menu{
+  border:1px solid black;
+  background-color: black;
+  width:75px;
+  height:75px;
+  border-radius:50%;
+  text-align:center;
+  padding-top:25px;
+  font-weight: bold;
+  color:white;
+  position: fixed;
+  margin-left:70%;
+  margin-top:-15px;
+}
+
+
