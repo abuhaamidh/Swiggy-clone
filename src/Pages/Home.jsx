@@ -6,6 +6,7 @@ import Navbar from "./Navbar";
 import { TbSearch } from "react-icons/tb";
 import { ImLocation } from "react-icons/im";
 import { IoIosArrowDown } from "react-icons/io";
+import Downshift from "downshift";
 
 function Home() {
   const [input, setInput] = useState("");
@@ -18,18 +19,32 @@ function Home() {
     usenavigate("/productdisplay", { state: { input } });
   }
 
+    const Locations = [
+    "Marathahalli",
+    "Koramangala",
+    "Indira Nagar",
+    "Brookfield",
+    "Whitefield",
+    "HSR Layout",
+    "Jayanagar",
+    "Church Street",
+    "BTM layout"
+  ];
+
   return (
     <div class="box">
       <Navbar />
+      <hr id = "borderLine"></hr>
       <h1 class="question">
         {" "}
         Order food & groceries. Discover best restaurants. Swiggy it!
       </h1>
 
-      <div class="dropdown-center">
+      {/* <div class="dropdown-center">
         <button
           class="btn btn-secondary dropdown-toggle"
           type="button"
+
           data-bs-toggle="dropdown"
           aria-expanded="false"
           style={{
@@ -68,13 +83,17 @@ function Home() {
               Brookfield
             </a>
           </li>
-        </ul>
+        </ul> */}
+
+        {/*SearchBar with the dropdown using Downshift */}
+
         <div
           class="searchBar"
-          style={{ marginTop: "-65px", marginLeft: "-60px" }}
+          style={{ marginTop:"30px",marginLeft: "-18%" }}
         >
+          
           <input
-            placeholder="Search for restaurant, item or.."
+            placeholder="Search for restaurants, item or.."
             type="text"
             class="search"
             onChange={(e) => setInput(e.target.value)}
@@ -84,8 +103,8 @@ function Home() {
             <TbSearch />
           </button>
         </div>
-      </div>
-
+      
+ 
       <div class="mid-img">
         <img
           class="mid-image"

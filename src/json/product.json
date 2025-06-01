@@ -5,7 +5,7 @@
     "location": "Koramangala",
     "rating": 4.2,
     "cuisine": "North Indian",
-    "offer": "25%",
+    "offer": "30%",
     "bankoffer": "10%",
     "image": "https://www.venuelook.com/_next/image?url=https%3A%2F%2Fcdn.venuelook.com%2Fuploads%2Fspace_20354%2F1564142328_595x400.png&w=640&q=75"
   },
@@ -25,7 +25,7 @@
     "location": "HSR Layout",
     "rating": 4.4,
     "cuisine": "Andhra",
-    "offer": "25%",
+    "offer": "30%",
     "bankoffer": "10%",
     "image": "https://media-assets.swiggy.com/swiggy/image/upload/fl_lossy,f_auto,q_auto/cvo1djhbwrgfqd64k0tl"
   },
@@ -45,7 +45,7 @@
     "location": "Church Street",
     "rating": 4.1,
     "cuisine": "Cafe",
-    "offer": "25%",
+    "offer": "30%",
     "bankoffer": "10%",
     "image": "https://b.zmtcdn.com/data/reviews_photos/19c/8d95b2ce6e62dd92aa2414c837d0a19c_1531809590.jpg"
   },
@@ -62,10 +62,10 @@
   {
     "id": 7,
     "name": "Biriyani Zone",
-    "location": "Marathahalli, Bangalore",
+    "location": "Marathahalli",
     "rating": 3.9,
     "cuisine": "Hyderabadi",
-    "offer": "25%",
+    "offer": "30%",
     "bankoffer": "10%",
     "image": "https://www.uengage.in/images/addo/logos/logo-10295-1676911633.png"
   },
@@ -82,17 +82,17 @@
   {
     "id": 9,
     "name": "Nagarjuna",
-    "location": "MG Road",
+    "location": "BTM layout",
     "rating": 4.4,
     "cuisine": "Andhra",
-    "offer": "25%",
+    "offer": "30%",
     "bankoffer": "10%",
     "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS1Nxm3BscfY44-g58zcbYPcvjJ__yB4xblNg&s"
   },
   {
     "id": 10,
     "name": "Smallys Resto Cafe",
-    "location": "Richmond Town",
+    "location": "Jayanagar",
     "rating": 4.3,
     "cuisine": "Continental",
     "offer": "25%",
@@ -104,9 +104,9 @@
     "name": "Aaha Bhojanam",
     "image": "https://lh3.googleusercontent.com/A952pN2KF0hqKIeSHASVAI3xt8_gKpgifTHrr_1heF4zwtoz7CBX7ctkLMbSM8sQBofkfkK_QyX0qeIUzhH9cwzI6XXPITaXjOso3daO=w300-rw",
     "cuisine": "Andhra~North Indian",
-    "location": "Brookfield, Banglore",
-    "offer": "10%",
-    "bankoffer": "15%",
+    "location": "Brookfield",
+    "offer": "30%",
+    "bankoffer": "25%",
     "rating": "4.3"
   },
   {
@@ -114,7 +114,7 @@
     "name": "Dhaba Estd 1986 Delhi",
     "image": "https://lh3.googleusercontent.com/huiEVUbdV4nvWfd0pDZj0pfdmuXuPTAo0nHVC-B7PEz-L9W-3H76P_-H41CXg42hc5nLpJ0fEDmAOoVukmnLHhubS21mdObYnpDdW6Tv=w1200-rw",
     "cuisine": "Mughlai~North Indian",
-    "location": "Marathahalli, Bangalore",
+    "location": "Marathahalli",
     "offer": "25%",
     "bankoffer": "10%",
     "rating": "4.0"
@@ -124,7 +124,7 @@
     "name": "Shao Radisson Blu",
     "image": "https://b.zmtcdn.com/data/pictures/4/52374/aafeb7ba52e3f8b3d9c8021940d25220.jpg?fit=around|750:500&crop=750:500;*,*",
     "cuisine": "Japanese~Thai",
-    "location": "Outer ring road, Bangalore",
+    "location": "Whitefield",
     "offer": "30%",
     "bankoffer": "5%",
     "rating": "4.2"
