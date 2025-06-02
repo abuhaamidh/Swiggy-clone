@@ -6,20 +6,9 @@ import Navbar from "./Navbar";
 import { TbSearch } from "react-icons/tb";
 import { ImLocation } from "react-icons/im";
 import { IoIosArrowDown } from "react-icons/io";
-import Downshift from "downshift";
+import { useCombobox } from "downshift";
 
-function Home() {
-  const [input, setInput] = useState("");
-  const usenavigate = useNavigate();
-
-  function productDisplay() {
-    usenavigate("/productdisplay");
-  }
-  function searchRestaurant() {
-    usenavigate("/productdisplay", { state: { input } });
-  }
-
-    const Locations = [
+ const locations = [
     "Marathahalli",
     "Koramangala",
     "Indira Nagar",
@@ -30,78 +19,101 @@ function Home() {
     "Church Street",
     "BTM layout"
   ];
+function Home() {
+  const [input, setInput] = useState("");
+  const usenavigate = useNavigate();
+  const [inputItem, setInputItem] = useState(locations);
 
+  function productDisplay() {
+    usenavigate("/productdisplay");
+  }
+  
+  function searchRestaurant() {
+    usenavigate("/productdisplay", { state: { input } });
+  } 
+
+   
+  
+  const {
+    isOpen,
+    getInputProps,
+    getMenuProps,
+    getItemProps,
+    highlightedIndex,
+    onSelectedItemChange
+  } = useCombobox({
+    items : inputItem,
+    onInputValueChange : ({inputValue = ""}) => {
+      setInputItem(
+        locations.filter((item) =>
+           item.toLowerCase().includes(inputValue.toLowerCase()))
+      )
+      
+    },
+    isOpen: input.trim().length > 0,
+    onSelectedItemChange : ({selectedItem}) =>{
+      if(selectedItem){
+        usenavigate("/productdisplay", { state: { input: selectedItem } });
+        console.log("textFromUser: ", input)
+      }
+    }
+  })
+  
   return (
     <div class="box">
       <Navbar />
-      <hr id = "borderLine"></hr>
+      <hr id="borderLine"></hr>
       <h1 class="question">
         {" "}
         Order food & groceries. Discover best restaurants. Swiggy it!
       </h1>
 
-      {/* <div class="dropdown-center">
-        <button
-          class="btn btn-secondary dropdown-toggle"
-          type="button"
-
-          data-bs-toggle="dropdown"
-          aria-expanded="false"
-          style={{
-            width: "300px",
-            height: "65px",
-            backgroundColor: "white",
-            borderRadius: "15px",
-            border: "none",
-            marginTop: "40px",
-            marginLeft: "10%",
-          }}
-        >
-          <p id="eydl" style={{ color: "grey", marginTop: "11px" }}>
-            <ImLocation style={{ color: "grey" }} /> Enter your delivery
-            location
-          </p>
-        </button>
-        <ul class="dropdown-menu" style={{ opacity: "60%" }}>
-          <li>
-            <a class="dropdown-item" href="#">
-              Marathahalli
-            </a>
-          </li>
-          <li>
-            <a class="dropdown-item" href="#">
-              Koramangala
-            </a>
-          </li>
-          <li>
-            <a class="dropdown-item" href="#">
-              Indira Nagar
-            </a>
-          </li>
-          <li>
-            <a class="dropdown-item" href="#">
-              Brookfield
-            </a>
-          </li>
-        </ul> */}
-
-        {/*SearchBar with the dropdown using Downshift */}
+      {/*SearchBar with the dropdown using Downshift */}
 
         <div
           class="searchBar"
-          style={{ marginTop:"30px",marginLeft: "-18%" }}
-        >
-          
+          style={{ marginTop:"30px",marginLeft: "-18%" }}>
+          <div style={{ maxWidth: "300px", margin: "50px auto", fontFamily: "Arial" }}>
           <input
-            placeholder="Search for restaurants, item or.."
+
+          {...getInputProps({
+            onChange : (e) => setInput(e.target.value)
+          })}
+            placeholder="Search for or locations..."
             type="text"
             class="search"
-            onChange={(e) => setInput(e.target.value)}
-            style={{ paddingLeft: "50px" }}
+            
           ></input>
-          <button id="search-btn" onClick={() => searchRestaurant()}>
-            <TbSearch />
-          </button>
+           
+          <ul
+          {...getMenuProps()}
+          style={{
+          listStyle: "none",
+          margin: 0,
+          padding: 0,
+          border: isOpen ? "1px solid #ccc" : "none",
+          borderTop: "none",
+          maxHeight: "150px",
+          overflowY: "auto",
+        }}
+          >
+            {isOpen &&
+             inputItem.map((item, index)=>(
+              <li 
+              key ={item}
+              {...getItemProps({item, index})}
+              style={{
+                padding: "8px",
+                backgroundColor: highlightedIndex === index ? "#f7e2d9" : "white",
+                cursor: "pointer",
+              }}
+              >
+                {item}
+              </li>
+             ))
+}
+          </ul>
+          </div>
         </div>
       
  
@@ -128,4 +140,74 @@ function Home() {
   );
 }
 
+
 export default Home;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+// {/* <button id="search-btn">  /* onClick={() => searchRestaurant()} */
+//     <TbSearch />
+//    </button> */}
+
+// {/* <div class="dropdown-center">
+//         <button
+//           class="btn btn-secondary dropdown-toggle"
+//           type="button"
+
+//           data-bs-toggle="dropdown"
+//           aria-expanded="false"
+//           style={{
+//             width: "300px",
+//             height: "65px",
+//             backgroundColor: "white",
+//             borderRadius: "15px",
+//             border: "none",
+//             marginTop: "40px",
+//             marginLeft: "10%",
+//           }}
+//         >
+//           <p id="eydl" style={{ color: "grey", marginTop: "11px" }}>
+//             <ImLocation style={{ color: "grey" }} /> Enter your delivery
+//             location
+//           </p>
+//         </button>
+//         <ul class="dropdown-menu" style={{ opacity: "60%" }}>
+//           <li>
+//             <a class="dropdown-item" href="#">
+//               Marathahalli
+//             </a>
+//           </li>
+//           <li>
+//             <a class="dropdown-item" href="#">
+//               Koramangala
+//             </a>
+//           </li>
+//           <li>
+//             <a class="dropdown-item" href="#">
+//               Indira Nagar
+//             </a>
+//           </li>
+//           <li>
+//             <a class="dropdown-item" href="#">
+//               Brookfield
+//             </a>
+//           </li>
+//         </ul> */}

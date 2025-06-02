@@ -10,41 +10,58 @@ import axios from 'axios'
 
 
 function Productdisplay() {
-  const [product,setProduct] = useState()
-  const usenavigate = useNavigate()
+  const [product,setProduct] = useState([]);
+  const usenavigate = useNavigate();
   const uselocation = useLocation();
-  const [data,setData] = useState()
+  const [data,setData] = useState();
+
+  const locationInput = uselocation.state?.input;
 
   useEffect(()=>{
-    setProduct(Data)
-  },[])
+    setProduct(Data) 
+    console.log("Loaded Data:", Data);
+  },[]);
 
-  function getMethod(){
-    axios.get("https://food-power.glitch.me/restaurants?limit=5&lastDeliveryTime=0",{
-      headers:{
-        authorization : 'Bearer '+"a123123"
-      }
-    }).then((response)=>{
-        console.log(response.data)
-    }).catch((err)=>{
-      console.log(err)
-    })
-  }
+  console.log("product in render:", product);
 
-  useEffect(()=>{
-    getMethod()
-  },[])
+  // function getMethod(){
+  //   axios.get("https://food-power.glitch.me/restaurants?limit=5&lastDeliveryTime=0",{
+  //     headers:{
+  //       authorization : 'Bearer '+"a123123"
+  //     }
+  //   }).then((response)=>{
+  //       console.log(response.data)
+  //   }).catch((err)=>{
+  //     console.log(err)
+  //   })
+  // }
+
+  // useEffect(()=>{
+  //   getMethod()
+  // },[])
+
+   const filtered = product.filter((e) => {
+    console.log("Comparing:", e.location, locationInput);
+    if (!locationInput) return true;
+  
+    return e.location === locationInput;
+    
+  });
+  
 
   return (
     <div>
      <Navbar/>
      <h1 className='best-restaurant'>Discover best restaurants on Dineout</h1>
-     <div class = "cards">
-      {product && product.filter((e)=>{
-        if(e.location == uselocation.state.input){
-          return e
-        }
-      }).map((e)=>
+     <div className = "cards">
+      {filtered.length === 0 && <div>No restaurants found</div>}
+      {/* {product && product ?.filter((e)=> {
+        if(!locationInput) return true;
+        return e.location === locationInput;
+}) */}
+
+{filtered.map((e)=> (
+
         <Card className="card-1" style={{ border: 'none', marginLeft: "1.5%" }}>
         <Card.Img variant="top" style={{ height: '17rem' }} src={e.image} />
         <Card.Body style={{ backgroundColor: 'rgb(244, 255, 251)' }}>
@@ -61,7 +78,7 @@ function Productdisplay() {
         </Card.Body>
       </Card>
       
-      )}
+))}
      
 
     

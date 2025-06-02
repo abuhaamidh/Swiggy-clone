@@ -93,6 +93,7 @@
 
 #btn4:hover {
   color: #ff5200;
+  color:#f7e2d9;
 }
 
 .question {
@@ -118,17 +119,26 @@
 }
 
 .search {
-  margin-left: 43%;
+  margin-left: 5%;
   margin-top: -20%;
   width: 500px;
   outline: none;
   height: 65px;
-  border-radius: 15px;
   padding-left: 10px;
-  border: none;
+  width: 200%;
+  padding: 8px;
+  border:none;
+  border-radius: 15px;
 }
 
-#search-btn {
+.search::placeholder{
+     color:grey;
+     padding-left: 80px;
+     opacity: 50%;
+  
+}
+
+/* #search-btn {
   height: 64px;
   width: 50px;
   border: none;
@@ -136,7 +146,7 @@
   border-radius: 15px;
   color: grey;
   margin-left: -45px;
-}
+} */
 
 .mid-img {
   margin-left: 10%;
@@ -191,8 +201,7 @@
 .title-name {
   margin-top: -120px;
 }
-#titlename-icon {
-}
+
 
 .content {
   margin-top: 10px;
