@@ -84,6 +84,7 @@ function Home() {
             class="search"
             
           ></input>
+          <TbSearch id="searchbtn"/>
            
           <ul
           {...getMenuProps()}
