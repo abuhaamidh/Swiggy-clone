@@ -19,10 +19,10 @@ function Productdisplay() {
 
   useEffect(()=>{
     setProduct(Data) 
-    console.log("Loaded Data:", Data);
+    //console.log("Loaded Data:", Data);
   },[]);
 
-  console.log("product in render:", product);
+  //console.log("product in render:", product);
 
   // function getMethod(){
   //   axios.get("https://food-power.glitch.me/restaurants?limit=5&lastDeliveryTime=0",{
@@ -41,11 +41,9 @@ function Productdisplay() {
   // },[])
 
    const filtered = product.filter((e) => {
-    console.log("Comparing:", e.location, locationInput);
+    //console.log("Comparing:", e.location, locationInput);
     if (!locationInput) return true;
-  
     return e.location === locationInput;
-    
   });
   
 
@@ -61,7 +59,7 @@ function Productdisplay() {
 }) */}
 
 {filtered.map((e)=> (
-
+        
         <Card className="card-1" style={{ border: 'none', marginLeft: "1.5%" }}>
         <Card.Img variant="top" style={{ height: '17rem' }} src={e.image} />
         <Card.Body style={{ backgroundColor: 'rgb(244, 255, 251)' }}>

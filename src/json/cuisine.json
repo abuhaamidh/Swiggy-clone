@@ -1,0 +1,52 @@
+[
+    {
+        "id" : 101,
+        "name":"Biriyani",
+        "image":"https://namastedesi.in/wp-content/uploads/2022/09/4.png"
+    },
+    {
+         "id" : 102,
+        "name":"Chinese", 
+        "image":"https://i.pinimg.com/236x/66/60/c8/6660c80c162ca5567981be7a2c8331a3.jpg"
+    },
+    {
+         "id" : 103,
+        "name":"North Indian", 
+        "image":"https://i.pinimg.com/736x/43/67/2b/43672bc5eb853418d767736c724b67ef.jpg"
+    },
+    {
+         "id" : 104,
+        "name":"South Indian", 
+        "image":"https://static.vecteezy.com/system/resources/previews/051/151/368/non_2x/indian-food-with-sauce-on-a-plate-png.png"
+    },
+        {
+         "id" : 105,
+        "name":"Italian", 
+        "image":"https://static.vecteezy.com/system/resources/previews/056/101/489/non_2x/delicious-penne-pasta-plate-on-transparent-background-png.png"
+    },
+    {
+         "id" : 106,
+        "name":"Chettinad", 
+        "image":"https://png.pngtree.com/png-vector/20241217/ourmid/pngtree-spicy-prawn-curry-in-a-rich-red-gravy-png-image_14806389.png"
+    },
+    {
+         "id" : 107,
+        "name":"Arab", 
+        "image":"https://png.pngtree.com/png-clipart/20231102/original/pngtree-traditional-middle-eastern-food-png-image_13494321.png"
+    },
+    {
+         "id" : 108,
+        "name":"Cakes", 
+        "image":"https://t4.ftcdn.net/jpg/06/78/12/01/360_F_678120157_GwrkDJE19x77N2BiSrsml6pN4ef94o8x.jpg"
+    },
+    {
+         "id" : 109,
+        "name":"Ice Cream", 
+        "image":"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS8zDHhljl3ZkMzTE79oUO59rKH-YXkX7Y2tA&s"
+    },
+    {
+         "id" : 110,
+        "name":"Burger", 
+        "image":"https://png.pngtree.com/png-clipart/20240830/original/pngtree-burger-with-floating-ingredient-png-image_15881303.png"
+    }
+]

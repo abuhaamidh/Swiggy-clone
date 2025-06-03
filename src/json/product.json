@@ -2,7 +2,7 @@
   {
     "id": 1,
     "name": "Empire Restaurant",
-    "location": "Koramangala",
+    "location": "Marathahalli",   
     "rating": 4.2,
     "cuisine": "North Indian",
     "offer": "30%",
@@ -12,7 +12,7 @@
   {
     "id": 2,
     "name": "Truffles",
-    "location": "Indiranagar",
+    "location": "Marathahalli", 
     "rating": 4.5,
     "cuisine": "American",
     "offer": "25%",
@@ -22,7 +22,7 @@
   {
     "id": 3,
     "name": "Meghana Foods",
-    "location": "HSR Layout",
+    "location": "Marathahalli",   
     "rating": 4.4,
     "cuisine": "Andhra",
     "offer": "30%",
@@ -32,7 +32,7 @@
   {
     "id": 4,
     "name": "Sagar Hotel",
-    "location": "Jayanagar",
+    "location": "Marathahalli",  
     "rating": 4.0,
     "cuisine": "South Indian",
     "offer": "25%",

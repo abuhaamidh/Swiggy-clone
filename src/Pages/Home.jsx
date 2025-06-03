@@ -7,6 +7,7 @@ import { TbSearch } from "react-icons/tb";
 import { ImLocation } from "react-icons/im";
 import { IoIosArrowDown } from "react-icons/io";
 import { useCombobox } from "downshift";
+import MidComponent from "./MidComponent";
 
  const locations = [
     "Marathahalli",
@@ -116,27 +117,15 @@ function Home() {
           </ul>
           </div>
         </div>
-      
- 
-      <div class="mid-img">
-        <img
-          class="mid-image"
-          src="https://media-assets.swiggy.com/swiggy/image/upload/fl_lossy,f_auto,q_auto/MERCHANDISING_BANNERS/IMAGES/MERCH/2024/7/23/faa6d07d-e43c-4aa1-90d8-eda6c14e467d_Food2BU.png"
-        ></img>
-        <img
-          class="mid-image1"
-          src="https://media-assets.swiggy.com/swiggy/image/upload/fl_lossy,f_auto,q_auto/MERCHANDISING_BANNERS/IMAGES/MERCH/2024/7/30/c1a4c945-fdf5-4418-af0b-4fb179b1e108_Genie2BU.png"
-        ></img>
-      </div>
-
-      <img
+        <MidComponent />
+       <img
         class="huge-img"
-        src="https://entrackr.com/storage/2018/12/swiggy-1200x600.jpg"
+        src="https://www.valueresearchonline.com/content-assets/images/224342_swiggy-zomato__w660__.jpg"
       ></img>
       <img
         class="bottom-img"
         src="https://media-assets.swiggy.com/swiggy/image/upload/fl_lossy,f_auto,q_auto/portal/m/seo/App_download_banner.png"
-      ></img>
+      ></img> 
     </div>
   );
 }
