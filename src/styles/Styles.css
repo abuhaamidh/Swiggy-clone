@@ -1,17 +1,18 @@
 .box {
   background-color: #ff5200;
-  height: 380px;
+  height: 375px;
 }
 
 .header {
   border: 1px solid #ff5200;
   background-color: #ff5200;
+  height: 110px;
 }
 
 .top {
-  height: 100px;
+  
   background-color: #ff5200;
-  margin-top: 20px;
+  margin-top: 15px;
 }
 
 .logo {
@@ -19,6 +20,10 @@
   margin-left: 120px;
   margin-top: 15px;
 }
+.logo:hover{
+  transform: scale(1.08);
+}
+
 
 .buttons {
   cursor: pointer;
@@ -175,6 +180,36 @@
   width: 600px;
   border-radius: 25px;
 } */
+ .city-title{
+  font-family:'Outfit', sans-serif;
+  margin: 50px 0 0 320px;
+  font-size: 25px;
+  font-weight: bold;
+ }
+.cities-list{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 2px;
+    padding: 20px;
+    margin-left: 20%;
+    max-width: 60%;
+  }
+#cities-list{
+ 
+  font-family:'Poppins', sans-serif;
+  border: 1px solid lightgray;
+  border-radius: 15px;
+  height: 50px;
+  width: 200px;
+  text-align: center;
+  padding-top:13px;
+  font-size: 13px;
+  margin-top: 10px;
+  
+}
+#cities-list:hover{
+  background-color: whitesmoke;
+}
 .cuisineScroll{
   width: 1200px;
   border: none;
@@ -214,7 +249,9 @@
   justify-content: center;
   transition: background 0.2s;
 }
-
+.scroll-btn:hover{
+    background-color: ;
+}
 .scroll-btn1 {
   background:whitesmoke;
   color:black ;

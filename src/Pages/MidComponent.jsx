@@ -20,7 +20,7 @@ useEffect(() => {
 },[])
     return(
          <div className="container" style={{maxWidth:"70%"}}>
-         <h1 style={{fontFamily:"'Poppins', sans-serif", fontWeight:"bold"}}>Choose your best cuisine</h1>
+         <h1 style={{ fontFamily:"'Outfit', sans-serif", fontWeight:"bold", fontSize:"28px", marginTop:'40px'}}>Choose your best cuisine</h1>
          <button className="scroll-btn" onClick={() => scroll(-800)}>&lt;</button>
          <button className="scroll-btn1" onClick={() => scroll(800)}>&gt;</button>
          <div style={{ display: "flex", alignItems: "center" }}>

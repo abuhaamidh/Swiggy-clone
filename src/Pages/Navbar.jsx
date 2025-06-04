@@ -20,7 +20,7 @@ function Navbar() {
     return (
     <div class="header">
         <div class = "top">
-            <img class = "logo" onClick={()=>routeTo()} src= "https://res.cloudinary.com/dutdah0l9/image/upload/v1720058694/Swiggy_logo_bml6he.png"></img>
+            <img class = "logo" onClick={()=>toLogin()} src= "https://res.cloudinary.com/dutdah0l9/image/upload/v1720058694/Swiggy_logo_bml6he.png"></img>
             <div class="buttons">
                 <button id='btn1'>Swiggy Corporate</button>
                 <button id='btn2'>Partner with us</button>
