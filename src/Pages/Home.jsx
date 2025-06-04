@@ -20,6 +20,21 @@ import MidComponent from "./MidComponent";
     "Church Street",
     "BTM layout"
   ];
+
+  const cities = [
+  "Tenkasi", "Tirunelveli", "Thoothukudi", "Madurai", "Chennai","Hyderabad","Bangalore","Goa","Tiruchirappalli", "Mumbai",  "Kolkata",  "Ahmedabad",
+  "Pune", "Jaipur", "Surat", "Lucknow", "Kanpur", "Nagpur", "Indore", "Bhopal",
+  "Patna", "Vadodara", "Ludhiana", "Agra", "Nashik", "Faridabad", "Meerut",
+  "Rajkot", "Kalyan-Dombivli", "Vasai-Virar", "Varanasi", "Srinagar", "Aurangabad",
+  "Dhanbad", "Amritsar", "Navi Mumbai", "Allahabad", "Ranchi", "Howrah", "Coimbatore",
+  "Jabalpur", "Gwalior", "Vijayawada", "Jodhpur", , "Raipur", "Kota",
+  "Guwahati", "Chandigarh", "Solapur", "Hubli Dharwad", "Bareilly", "Moradabad",
+  "Mysore",  "Tiruppur",  "Thiruvananthapuram", "Noida", "Gurgaon", "Thane", "Bhavnagar", "Ujjain", "Jamshedpur",
+  "Kolhapur", "Cuttack", "Rourkela", "Ajmer", "Shillong", "Siliguri", "Aligarh", 
+  "Bilaspur", "Jalandhar", "Rajasthan", "Shimla", "Panaji", "Warangal", "Nanded", 
+  "Erode", "Nellore", "Belgaum", "Anantapur", "Durgapur", "Guntur", "Tirupati", 
+  "Saharanpur", "Rewa", "Kasargod", "Thrissur", "Alappuzha", "Kannur"
+];
 function Home() {
   const [input, setInput] = useState("");
   const usenavigate = useNavigate();
@@ -59,6 +74,8 @@ function Home() {
       }
     }
   })
+
+
   
   return (
     <div class="box">
@@ -73,7 +90,7 @@ function Home() {
 
         <div
           class="searchBar"
-          style={{ marginTop:"30px",marginLeft: "-18%" }}>
+          style={{ marginTop:"30px",marginLeft: "-22%" }}>
           <div style={{ maxWidth: "300px", margin: "50px auto", fontFamily: "Arial" }}>
           <input
 
@@ -124,8 +141,13 @@ function Home() {
         class="bottom-img"
         src="https://media-assets.swiggy.com/swiggy/image/upload/fl_lossy,f_auto,q_auto/portal/m/seo/App_download_banner.png"
       ></img> 
+      <h5 className="city-title">Cities with food delivery</h5>
       <div className="cities-list">
-        
+      {cities.map((city, index) => (
+        <p id='cities-list' key={index}>
+         {city}
+        </p>
+      ))}
       </div>
     </div>
   );
