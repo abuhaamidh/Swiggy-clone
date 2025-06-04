@@ -50,9 +50,9 @@ function Productdisplay() {
   return (
     <div>
      <Navbar/>
-     <h1 className='best-restaurant'>Discover best restaurants on Dineout</h1>
+     <h1 className='best-restaurant' style={{fontFamily:"'Outfit', sans-serif", marginLeft:'175px'}}> Discover best restaurants on Dineout</h1>
      <div className = "cards">
-      {filtered.length === 0 && <div>No restaurants found</div>}
+      {filtered.length === 0 && <p class="noitem-txt">Oops! No restaurants found in this location </p>}
       {/* {product && product ?.filter((e)=> {
         if(!locationInput) return true;
         return e.location === locationInput;
@@ -60,10 +60,10 @@ function Productdisplay() {
 
 {filtered.map((e)=> (
         
-        <Card className="card-1" style={{ border: 'none', marginLeft: "1.5%" }}>
-        <Card.Img variant="top" style={{ height: '17rem' }} src={e.image} />
+        <Card className="card-1" style={{ border: 'none', marginLeft: "1.5%", width:'22rem' }}>
+        <Card.Img  className='card1-img' variant="top" style={{ height: '12rem', width:'22rem' , borderTopRightRadius:'20px', borderTopLeftRadius:'20px'}} src={e.image} />
         <Card.Body style={{ backgroundColor: 'rgb(244, 255, 251)' }}>
-          <Card.Title className="title-name" style={{ display: "flex", justifyContent: "space-between", alignItems: "center",marginTop:"-50px",color:"white", fontWeight:'bold'}}>
+          <Card.Title className="title-name" style={{ display: "flex", justifyContent: "space-between", alignItems: "center",marginTop:"-50px",color:"white", fontFamily:"'Outfit', sans-serif", fontWeight:'boldest'}}>
             <span>{e.name}</span>
             <div style={{fontSize:'12px'}} id='titlename-icon'> {e.rating} <MdStars /></div>
           </Card.Title>

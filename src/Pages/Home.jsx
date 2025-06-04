@@ -80,7 +80,7 @@ function Home() {
           {...getInputProps({
             onChange : (e) => setInput(e.target.value)
           })}
-            placeholder="Search for or locations..."
+            placeholder="Search for locations..."
             type="text"
             class="search"
             
@@ -118,14 +118,15 @@ function Home() {
           </div>
         </div>
         <MidComponent />
-       <img
-        class="huge-img"
-        src="https://www.valueresearchonline.com/content-assets/images/224342_swiggy-zomato__w660__.jpg"
-      ></img>
+       
+       <div></div>
       <img
         class="bottom-img"
         src="https://media-assets.swiggy.com/swiggy/image/upload/fl_lossy,f_auto,q_auto/portal/m/seo/App_download_banner.png"
       ></img> 
+      <div className="cities-list">
+        
+      </div>
     </div>
   );
 }

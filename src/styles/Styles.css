@@ -93,7 +93,7 @@
 
 #btn4:hover {
   color: #ff5200;
-  color:#f7e2d9;
+  
 }
 
 .question {
@@ -148,6 +148,15 @@
   border-radius: 15px;
   color: grey;
  }
+ .noitem-txt{
+  text-align: center;
+  margin-left: 25%;
+  margin-top: 50px;
+  font-family:'Poppins', sans-serif;
+  font-size: 21px;
+  color: grey;
+
+ }
 
 .mid-img {
   display: flex;
@@ -184,8 +193,10 @@
   width: 50px;
   height: 50px;
   flex: 0 0 auto;
-  
 
+}
+.cardsScroll:hover{
+   transform:scale(1.1);
 }
 .scroll-btn {
   background:whitesmoke;
@@ -256,10 +267,12 @@
   gap: 50px;
 }
 .card-1 {
-  border-radius: 30px;
   width: 20rem;
   border: 1px solid grey;
 }
+/* .card-1:hover{
+  transform: scale(1.05);
+} */
 
 .title-name {
   margin-top: -120px;
@@ -281,7 +294,7 @@
 .content-txt {
   color: white;
   font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
-  width: 18rem;
+  width: 20rem;
   height: 35px;
   border-radius: 5px;
   padding: 5px;
@@ -307,7 +320,7 @@
 .content-txt-1 {
   color: rgb(27, 166, 114);
   font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
-  width: 18rem;
+  width: 20  rem;
   height: 35px;
   border-radius: 5px;
   padding: 5px;
