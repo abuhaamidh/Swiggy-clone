@@ -1,6 +1,6 @@
 .box {
   background-color: #ff5200;
-  height: 375px;
+  height: 730px;
 }
 
 .header {
@@ -209,6 +209,44 @@
 }
 #cities-list:hover{
   background-color: whitesmoke;
+}
+.three-images{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  max-width: 80%;
+  margin-left: 9%;
+}
+#first{
+  background-color: white;
+  border-radius: 30px;
+  height: 310px;
+  width: 330px;
+  
+}
+#ti-txt{
+  width: 160px;
+  padding-left:10px;
+  border-radius: 15px;
+  background-color: #ff5200;
+}
+
+#second{
+  
+  background-color: white;
+  border-radius: 30px;
+  height: 310px;
+  width: 330px;
+  
+}
+
+#third{
+  
+  background-color: white;
+  border-radius: 30px;
+  height: 310px;
+  width: 330px;
+  
 }
 .cuisineScroll{
   width: 1200px;
