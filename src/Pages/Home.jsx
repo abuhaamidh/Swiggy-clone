@@ -1,13 +1,13 @@
 import React, { useState } from "react";
 import "../styles/Styles.css";
 import { useNavigate } from "react-router-dom";
-import { Dropdown } from "bootstrap";
-import Navbar from "./Navbar";
+import Navbar from "../components/Navbar";
 import { TbSearch } from "react-icons/tb";
 import { ImLocation } from "react-icons/im";
 import { IoIosArrowDown } from "react-icons/io";
 import { useCombobox } from "downshift";
-import MidComponent from "./MidComponent";
+import MidComponent from "../components/MidComponent";
+import Scrolls from "../components/Scrolls";
 
  const locations = [
     "Marathahalli",
@@ -41,6 +41,7 @@ function Home() {
   const [inputItem, setInputItem] = useState(locations);
 
   function productDisplay() {
+    
     usenavigate("/productdisplay");
   }
   
@@ -134,8 +135,9 @@ function Home() {
           </ul>
           </div>
         </div>
-        <MidComponent />
        
+        <MidComponent />
+        <Scrolls/>
        <div></div>
       <img
         class="bottom-img"

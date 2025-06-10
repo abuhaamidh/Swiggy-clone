@@ -1,5 +1,5 @@
 import React from "react";
-import CommonHeader from "./CommonHeader";
+import CommonHeader from "../components/CommonHeader";
 import { MdStars } from "react-icons/md";
 import { IoMdArrowDropdown } from "react-icons/io";
 import { TfiPin } from "react-icons/tfi";

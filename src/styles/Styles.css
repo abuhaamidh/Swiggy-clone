@@ -404,30 +404,47 @@
   padding-left: 5px;
 }
 
-/*----------content header---*/
+/*----------Common header---*/
 .header-1 {
   display: flex;
   position: fixed;
   width: 100%;
-  height: 90px;
+  height: 80px;
   background-color: white;
-  overflow: hidden;
+  /* overflow: hidden; */
+  font-family:'Courier New', Courier, monospace;
+  font-weight: bold;
 }
 .logo-1 {
   height: 50px;
   border-radius: 20px;
-  margin-left: 10%;
-  margin-top: 20px;
+  margin-left: 8%;
+  margin-top: 15px;
+ 
+  
+}
+.logo-1:hover{
+  transform: scale(1.1);
+}
+#order{
+  margin-top:25px ;
+  margin-left:30px;
+  height: 26px;
+  border-bottom: 2px solid black;
+}
+#order:hover{
+  color: #ff5200;
+  border-bottom: 2px solid #ff5200;;
 }
 .btnn-1 {
   margin-left: 25%;
   font-weight: bold;
   opacity: 70%;
-  font-family: Georgia, "Times New Roman", Times, serif;
+  font-family:'Courier New', Courier, monospace;
   border: none;
   background-color: white;
   display: inline;
-  width: 184px;
+  width: 190px;
 }
 .btnn-1:hover {
   color: #ff5200;
@@ -437,7 +454,7 @@
   margin-left: 25px;
   font-weight: bold;
   opacity: 70%;
-  font-family: Georgia, "Times New Roman", Times, serif;
+   font-family:'Courier New', Courier, monospace;
   border: none;
   background-color: white;
   display: inline;
@@ -451,7 +468,7 @@
   margin-left: 25px;
   font-weight: bold;
   opacity: 70%;
-  font-family: Georgia, "Times New Roman", Times, serif;
+   font-family:'Courier New', Courier, monospace;
   border: none;
   background-color: white;
   display: inline;
@@ -465,7 +482,7 @@
   margin-left: 25px;
   font-weight: bold;
   opacity: 70%;
-  font-family: Georgia, "Times New Roman", Times, serif;
+   font-family:'Courier New', Courier, monospace;
   border: none;
   background-color: white;
   display: inline;
@@ -479,11 +496,11 @@
   margin-left: 25px;
   font-weight: bold;
   opacity: 70%;
-  font-family: Georgia, "Times New Roman", Times, serif;
+   font-family:'Courier New', Courier, monospace;
   border: none;
   background-color: white;
   display: inline;
-  width: 100px;
+  width: 120px;
 }
 .btnn-5:hover {
   color: #ff5200;
@@ -492,7 +509,7 @@
 .btnn-6 {
   font-weight: bold;
   opacity: 70%;
-  font-family: Georgia, "Times New Roman", Times, serif;
+   font-family:'Courier New', Courier, monospace;
   border: none;
   background-color: white;
   display: inline;

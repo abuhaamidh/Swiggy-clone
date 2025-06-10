@@ -2,7 +2,7 @@
 const express = require('express');
 const app = express();
 const cors = require('cors');
-const port = 5000;
+const PORT = 5000;
 
 app.use(cors());
 
@@ -18,5 +18,5 @@ app.get('/api/cuisine', (req, res) => {
 });
 
 app.listen(PORT, () => {
-    console.log(`Woah! Your server is running is http://localhost${port}`);
+    console.log(`Woah! Your server is running is http://localhost${PORT}`);
 }) 

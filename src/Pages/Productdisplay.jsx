@@ -1,5 +1,5 @@
 import React, { useEffect, useState } from 'react'
-import Navbar from './Navbar'
+import Navbar from '../components/Navbar'
 import { Button, Card } from 'react-bootstrap'
 import { useNavigate } from 'react-router-dom'
 import { useLocation } from 'react-router-dom'

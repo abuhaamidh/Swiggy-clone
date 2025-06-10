@@ -1,7 +1,5 @@
-import React from 'react'
 import "../styles/Styles.css"
 import { useNavigate } from 'react-router-dom'
-import Home from './Home';
 import { MdArrowOutward } from "react-icons/md";
 
 
