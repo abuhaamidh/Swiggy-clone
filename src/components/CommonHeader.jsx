@@ -7,7 +7,7 @@ import { BsPerson } from "react-icons/bs";
 import { BsMinecart } from "react-icons/bs";
 
 function CommonHeader() {
-  return (
+  return ( 
 
 
 <div className='boxx' style={{paddingTop: "1px" }}>
@@ -21,9 +21,9 @@ function CommonHeader() {
       <button className='btnn-5'><BsPerson  style={{marginRight:'5px', marginTop:'-3px'}}/>Sign In</button>
       <button className='btnn-6'><BsMinecart style={{marginRight:'5px', marginTop:'-3px'}}/>Cart</button>
       </div>
-     <hr style={{marginTop:"80px", width:'85%', marginLeft:'6%'}}/>
-    <div style={{backgroundColor:"whitesmoke"}}>
-      abu
+     <hr style={{marginTop:"80px", marginLeft:'6%', color:'lightgray'}}/>
+    <div style={{textAlign:'center',fontSize:'40px',backgroundColor:"whitesmoke", marginTop:'-20px'}}>
+      
     </div>
      
 </div>

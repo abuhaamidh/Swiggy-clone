@@ -427,9 +427,9 @@
   transform: scale(1.1);
 }
 #order{
-  margin-top:25px ;
+  margin-top:28px ;
   margin-left:30px;
-  height: 26px;
+  height: 23px;
   border-bottom: 2px solid black;
 }
 #order:hover{
