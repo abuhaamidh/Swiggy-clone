@@ -633,3 +633,49 @@
   margin-left: 70%;
   margin-top: -15px;
 }
+.shopdetails{
+  border:1px solid grey;
+  border-radius: 28px;
+  margin-top: 21px;
+  margin-left: 22rem;
+  height: 9rem;
+  max-width: 50rem;
+  font-family:'poppins', sans-serif;
+}
+.searchdishes{
+  margin-left: 22rem;
+  width: 50.5rem;
+  height: 50px;
+  border-radius: 15px;
+  border:none;
+}
+.searchdishes::placeholder{
+    text-align: center;
+    font-weight: bold;
+}
+.menublack{
+  border:1px solid black;
+  border-radius: 50%;
+  width: 80px;
+  height: 80px;
+  text-align: center;
+  padding-top: 25px;
+  font-weight: bold;
+  color:white;
+  background-color: black;
+  margin-left: 66.4rem;
+  position: fixed;
+  margin-top: -65px;
+}
+.displayMenu{
+  display: flex;
+  flex-direction: column;
+  margin-left: 21.5rem;
+  margin-top: 50px;
+}
+#ADD-btn{
+  margin-left:48rem;
+  margin-top: -100px;
+  width: 100px;
+  border:none;
+}
