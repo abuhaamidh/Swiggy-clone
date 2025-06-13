@@ -17,13 +17,13 @@ const [data, setData] = useState([]);
     useEffect(() => {
         setData(Data)
     },[])
-    
+3
     return (
         <div>
-        <div className="container" style={{maxWidth:"60%"}}>
+        <div className="container" style={{maxWidth:"53%", marginTop:'50px'}}>
          <h1 style={{ fontFamily:"'Outfit', sans-serif", fontWeight:"bold", fontSize:"26px", marginBottom:'-35px', marginTop:'30px'}}>Deals for you</h1>
-         <button style={{borderRadius:'50%', height:'36px', width:'36px', marginLeft:'50rem', border:'none'}} className="scroll-btn11"  onClick={() => scroll(-200)}>&lt;</button>
-         <button style={{borderRadius:'50%', height:'36px', width:'36px', marginLeft:'10px', border:'none'}}className="scroll-btn2" onClick={() => scroll( 200)}>&gt;</button>
+         <button style={{borderRadius:'50%', height:'36px', width:'36px', marginLeft:'43.5rem', border:'none'}} className="scroll-btn11"  onClick={() => scroll(-400)}>&lt;</button>
+         <button style={{borderRadius:'50%', height:'36px', width:'36px', marginLeft:'10px', border:'none'}}className="scroll-btn2" onClick={() => scroll( 400)}>&gt;</button>
          <div style={{ display: "flex", alignItems: "center"}}>
          
         <div className="cuisineScroll" ref={scrollRef}>
