@@ -666,16 +666,31 @@
   margin-left: 66.4rem;
   position: fixed;
   margin-top: -65px;
+  overflow: hidden;
 }
 .displayMenu{
-  display: flex;
-  flex-direction: column;
+
   margin-left: 21.5rem;
   margin-top: 50px;
 }
-#ADD-btn{
-  margin-left:48rem;
-  margin-top: -100px;
-  width: 100px;
+#menuadd-btn{
+  margin-left:45rem;
+  width: 125px;
+  height: 45px;
+  border-radius: 15px;
+  color: green;
+  opacity: 80%;
+  background-color: white;
   border:none;
+  font-weight: bolder;
+  
+}
+
+#customisable{
+  font-size: 11px;
+  margin-top: 5px;
+  opacity: 50%;
+  margin-left: 46.5rem;
+  font-weight: bold;
+  font-family:'poppins', sans-serif ;
 }
