@@ -7,6 +7,7 @@ import Productdisplay from '../Pages/Productdisplay'
 import Foodmenu from '../Pages/Foodmenu'
 import CommonHeader from '../components/CommonHeader'
 import Menudisplay from '../Pages/Menudisplay'
+import OffersScroll from '../components/OffersScroll'
 
 
 
@@ -22,6 +23,7 @@ function Path() {
         <Route path= "/foodmenu" element={<Foodmenu/>}/> 
         <Route path="/commonheader" element={<CommonHeader/>}/>
         <Route path ="/menudisplay" element={<Menudisplay/>} />
+        <Route path="/offersscroll" element={<OffersScroll/>}/>
        
     </Routes>
     </BrowserRouter>
