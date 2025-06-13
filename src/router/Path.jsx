@@ -16,8 +16,8 @@ function Path() {
     <BrowserRouter>
     <Routes>
         <Route path= "/" element={<Home/>}/>
-        <Route  path= "/login" element={<Login/>}/>
-        <Route  path= "/navbar" element={<Navbar/>}/>
+        <Route path= "/login" element={<Login/>}/>
+        <Route path= "/navbar" element={<Navbar/>}/>
         <Route path= "/productdisplay" element={<Productdisplay/>}/>
         <Route path= "/foodmenu" element={<Foodmenu/>}/> 
         <Route path="/commonheader" element={<CommonHeader/>}/>

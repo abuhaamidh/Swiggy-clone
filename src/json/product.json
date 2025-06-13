@@ -2,7 +2,7 @@
   {
     "id": 1,
     "name": "Empire Restaurant",
-    "location": "Marathahalli",   
+    "location": "Koramangala",   
     "rating": 4.2,
     "cuisine": "North Indian",
     "offer": "30%",
@@ -17,7 +17,7 @@
   },
   {
     "id": 102,
-    "name": "Chicken Biryani",
+    "name": "Butter Naan",
     "price": 299,
     "image": "https://i.imgur.com/b9zDbyb.jpg"
   },
@@ -41,19 +41,19 @@
   },
   {
     "id": 106,
-    "name": "Masala Dosa",
+    "name": "Ghee rice",
     "price": 145,
     "image": "https://i.imgur.com/roNVmJt.jpg"
   },
   {
     "id": 107,
-    "name": "Idli Sambar",
+    "name": "Dhaal Makhni",
     "price": 99,
     "image": "https://i.imgur.com/6QO30KY.jpg"
   },
   {
     "id": 108,
-    "name": "Pizza Margherita",
+    "name": "Chola Bhature",
     "price": 299,
     "image": "https://i.imgur.com/1odXUjL.jpg"
   },
@@ -65,82 +65,122 @@
   },
   {
     "id": 110,
-    "name": "Fried Rice",
+    "name": "Garlic Naan",
     "price": 169,
     "image": "https://i.imgur.com/M9exkzW.jpg"
   }
-]
-
+  
+    ]
   },
   {
     "id": 2,
     "name": "Truffles",
-    "location": "Marathahalli", 
+    "location": "Indira nagar", 
     "rating": 4.5,
-    "cuisine": "American",
+    "cuisine": "Burger",
     "offer": "25%",
     "bankoffer": "10%",
     "image": "https://b.zmtcdn.com/data/pictures/0/51040/3614a681863f438e8a1018e313ed070f.jpg",
     "menu": [
   {
-    "id": 101,
-    "name": "Paneer Butter Masala",
-    "price": 249,
-    "image": "https://i.imgur.com/V7ZxgGu.jpg"
-  },
-  {
-    "id": 102,
-    "name": "Chicken Biryani",
-    "price": 299,
-    "image": "https://i.imgur.com/b9zDbyb.jpg"
-  },
-  {
-    "id": 103,
-    "name": "Veg Pulao",
-    "price": 189,
-    "image": "https://i.imgur.com/BJKwz2z.jpg"
-  },
-  {
-    "id": 104,
-    "name": "Tandoori Roti",
-    "price": 25,
-    "image": "https://i.imgur.com/gXj5AGd.jpg"
-  },
-  {
-    "id": 105,
-    "name": "Butter Chicken",
-    "price": 319,
-    "image": "https://i.imgur.com/m3F9UIm.jpg"
-  },
-  {
-    "id": 106,
-    "name": "Masala Dosa",
-    "price": 145,
-    "image": "https://i.imgur.com/roNVmJt.jpg"
-  },
-  {
-    "id": 107,
-    "name": "Idli Sambar",
-    "price": 99,
-    "image": "https://i.imgur.com/6QO30KY.jpg"
-  },
-  {
-    "id": 108,
-    "name": "Pizza Margherita",
-    "price": 299,
-    "image": "https://i.imgur.com/1odXUjL.jpg"
-  },
-  {
-    "id": 109,
-    "name": "Veg Manchurian",
+    "id": 1,
+    "name": "Classic Beef Burger",
+    "description": "Juicy grilled beef patty with lettuce, tomato, cheese, and mayo in a sesame bun.",
     "price": 199,
-    "image": "https://i.imgur.com/6b6fBPJ.jpg"
+    "image": "https://example.com/images/beef_burger.jpg",
+    "patty": "Beef",
+    
+    "serving": "1 person"
   },
   {
-    "id": 110,
-    "name": "Fried Rice",
+    "id": 2,
+    "name": "Crispy Chicken Burger",
+    "description": "Fried chicken fillet with lettuce, spicy mayo, and pickles.",
+    "price": 179,
+    "image": "https://example.com/images/chicken_burger.jpg",
+    "patty": "Chicken",
+    
+    "serving": "1 person"
+  },
+  {
+    "id": 3,
+    "name": "Spicy Paneer Burger",
+    "description": "Paneer patty with Indian spices, onions, and mint chutney.",
+    "price": 149,
+    "image": "https://example.com/images/paneer_burger.jpg",
+    "patty": "Paneer",
+   
+    "serving": "1 person"
+  },
+  {
+    "id": 4,
+    "name": "Veggie Delight Burger",
+    "description": "Mixed vegetable patty with cheese, tomato, and mayo.",
+    "price": 129,
+    "image": "https://example.com/images/veggie_burger.jpg",
+    "patty": "Veg",
+    
+    "serving": "1 person"
+  },
+  {
+    "id": 5,
+    "name": "Double Cheese Burger",
+    "description": "Double beef patty with extra cheese, lettuce, and mustard.",
+    "price": 229,
+    "image": "https://example.com/images/double_cheese.jpg",
+    "patty": "Beef",
+    
+    "serving": "1 person"
+  },
+  {
+    "id": 6,
+    "name": "Fish Fillet Burger",
+    "description": "Crispy fish fillet with tartar sauce and iceberg lettuce.",
+    "price": 189,
+    "image": "https://example.com/images/fish_burger.jpg",
+    "patty": "Fish",
+    
+    "serving": "1 person"
+  },
+  {
+    "id": 7,
+    "name": "BBQ Chicken Burger",
+    "description": "Grilled chicken patty glazed with BBQ sauce, onions, and cheese.",
+    "price": 199,
+    "image": "https://example.com/images/bbq_chicken.jpg",
+    "patty": "Chicken",
+    
+    "serving": "1 person"
+  },
+  {
+    "id": 8,
+    "name": "Mushroom Melt Burger",
+    "description": "Grilled mushrooms, cheese sauce, and veggie patty in a toasted bun.",
+    "price": 159,
+    "image": "https://example.com/images/mushroom_burger.jpg",
+    "patty": "Veg",
+   
+    "serving": "1 person"
+  },
+  {
+    "id": 9,
+    "name": "Peri Peri Chicken Burger",
+    "description": "Chicken patty tossed in peri-peri spices with onions and garlic mayo.",
+    "price": 189,
+    "image": "https://example.com/images/peri_chicken.jpg",
+    "patty": "Chicken",
+    
+    "serving": "1 person"
+  },
+  {
+    "id": 10,
+    "name": "Tofu Teriyaki Burger",
+    "description": "Grilled tofu in teriyaki sauce with lettuce and sesame dressing.",
     "price": 169,
-    "image": "https://i.imgur.com/M9exkzW.jpg"
+    "image": "https://example.com/images/tofu_burger.jpg",
+    "patty": "Tofu",
+    
+    "serving": "1 person"
   }
 ]
 
@@ -148,72 +188,101 @@
   {
     "id": 3,
     "name": "Meghana Foods",
-    "location": "Marathahalli",   
+    "location": "HSR Layout",   
     "rating": 4.4,
-    "cuisine": "Andhra",
+    "cuisine": "Biryani",
     "offer": "30%",
     "bankoffer": "10%",
     "image": "https://media-assets.swiggy.com/swiggy/image/upload/fl_lossy,f_auto,q_auto/cvo1djhbwrgfqd64k0tl",
-    "menu": [
+    "menu":[
   {
-    "id": 101,
-    "name": "Paneer Butter Masala",
+    "id": 1,
+    "name": "Hyderabadi Biryani",
+    "description": "A spicy and flavorful biryani made with basmati rice and marinated mutton.",
     "price": 249,
-    "image": "https://i.imgur.com/V7ZxgGu.jpg"
+    "image": "https://example.com/images/hyderabadi.jpg",
+    "serving": "1 person"
   },
   {
-    "id": 102,
-    "name": "Chicken Biryani",
-    "price": 299,
-    "image": "https://i.imgur.com/b9zDbyb.jpg"
+    "id": 2,
+    "name": "Lucknowi Biryani",
+    "description": "A mildly spiced biryani with saffron flavors and tender chicken.",
+    "price": 229,
+    "image": "https://example.com/images/lucknowi.jpg",
+    
+    "serving": "1 person"
   },
   {
-    "id": 103,
-    "name": "Veg Pulao",
-    "price": 189,
-    "image": "https://i.imgur.com/BJKwz2z.jpg"
+    "id": 3,
+    "name": "Kolkata Biryani",
+    "description": "Light and aromatic biryani with potatoes, boiled eggs, and meat.",
+    "price": 219,
+    "image": "https://example.com/images/kolkata.jpg",
+    
+    "serving": "1 person"
   },
   {
-    "id": 104,
-    "name": "Tandoori Roti",
-    "price": 25,
-    "image": "https://i.imgur.com/gXj5AGd.jpg"
-  },
-  {
-    "id": 105,
-    "name": "Butter Chicken",
-    "price": 319,
-    "image": "https://i.imgur.com/m3F9UIm.jpg"
-  },
-  {
-    "id": 106,
-    "name": "Masala Dosa",
-    "price": 145,
-    "image": "https://i.imgur.com/roNVmJt.jpg"
-  },
-  {
-    "id": 107,
-    "name": "Idli Sambar",
-    "price": 99,
-    "image": "https://i.imgur.com/6QO30KY.jpg"
-  },
-  {
-    "id": 108,
-    "name": "Pizza Margherita",
-    "price": 299,
-    "image": "https://i.imgur.com/1odXUjL.jpg"
-  },
-  {
-    "id": 109,
-    "name": "Veg Manchurian",
+    "id": 4,
+    "name": "Ambur Biryani",
+    "description": "Traditional Tamil Nadu biryani cooked with short-grain rice and chicken.",
     "price": 199,
-    "image": "https://i.imgur.com/6b6fBPJ.jpg"
+    "image": "https://example.com/images/ambur.jpg",
+    
+    "serving": "1 person"
   },
   {
-    "id": 110,
-    "name": "Fried Rice",
+    "id": 5,
+    "name": "Thalassery Biryani",
+    "description": "Kerala-style biryani made with small-grained rice and aromatic spices.",
+    "price": 239,
+    "image": "https://example.com/images/thalassery.jpg",
+    
+    "serving": "1 person"
+  },
+  {
+    "id": 6,
+    "name": "Dindigul Biryani",
+    "description": "Famous Tamil Nadu biryani with seeraga samba rice and peppery masala.",
+    "price": 209,
+    "image": "https://example.com/images/dindigul.jpg",
+    
+    "serving": "1 person"
+  },
+  {
+    "id": 7,
+    "name": "Paneer Biryani",
+    "description": "Vegetarian biryani with paneer cubes and rich spices.",
+    "price": 189,
+    "image": "https://example.com/images/paneer.jpg",
+    
+    "serving": "1 person"
+  },
+  {
+    "id": 8,
+    "name": "Egg Biryani",
+    "description": "Biryani infused with boiled eggs and a spicy masala base.",
+    "price": 179,
+    "image": "https://example.com/images/egg.jpg",
+    
+    "serving": "1 person"
+  },
+  {
+    "id": 9,
+    "name": "Veg Biryani",
+    "description": "Mixed vegetables cooked with saffron rice and aromatic spices.",
     "price": 169,
-    "image": "https://i.imgur.com/M9exkzW.jpg"
+    "image": "https://example.com/images/veg.jpg",
+    
+    "serving": "1 person"
+  },
+  {
+    "id": 10,
+    "name": "Chettinad Biryani",
+    "description": "Spicy biryani made with South Indian-style Chettinad masala.",
+    "price": 219,
+    "image": "https://example.com/images/chettinad.jpg",
+    
+    "serving": "1 person"
   }
 ]
 
@@ -221,74 +290,95 @@
   {
     "id": 4,
     "name": "Sagar Hotel",
-    "location": "Marathahalli",  
+    "location": "Jayanagar",  
     "rating": 4.0,
     "cuisine": "South Indian",
     "offer": "25%",
     "bankoffer": "10%",
     "image": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/01/cf/bf/66/sukh-sagar-hotel.jpg?w=900&h=500&s=1",
-    "menu": [
+    "menu":[
   {
-    "id": 101,
-    "name": "Paneer Butter Masala",
-    "price": 249,
-    "image": "https://i.imgur.com/V7ZxgGu.jpg"
+    "id": 1,
+    "name": "Idli",
+    "description": "Soft steamed rice cakes served with coconut chutney and sambar.",
+    "price": 40,
+    "image": "https://example.com/images/idli.jpg",
+    "serving": "2 pieces"
   },
   {
-    "id": 102,
-    "name": "Chicken Biryani",
-    "price": 299,
-    "image": "https://i.imgur.com/b9zDbyb.jpg"
+    "id": 2,
+    "name": "Dosa",
+    "description": "Crispy thin rice pancake served with chutney and sambar.",
+    "price": 60,
+    "image": "https://example.com/images/dosa.jpg",
+    "serving": "1 large dosa"
   },
   {
-    "id": 103,
-    "name": "Veg Pulao",
-    "price": 189,
-    "image": "https://i.imgur.com/BJKwz2z.jpg"
+    "id": 3,
+    "name": "Medu Vada",
+    "description": "Crispy lentil fritters shaped like doughnuts, served with chutney.",
+    "price": 45,
+    "image": "https://example.com/images/medu_vada.jpg",
+    "serving": "2 pieces"
   },
   {
-    "id": 104,
-    "name": "Tandoori Roti",
-    "price": 25,
-    "image": "https://i.imgur.com/gXj5AGd.jpg"
+    "id": 4,
+    "name": "Pongal",
+    "description": "A comforting dish made from rice and moong dal with ghee and pepper.",
+    "price": 55,
+    "image": "https://example.com/images/pongal.jpg",
+    "serving": "1 bowl"
   },
   {
-    "id": 105,
-    "name": "Butter Chicken",
-    "price": 319,
-    "image": "https://i.imgur.com/m3F9UIm.jpg"
+    "id": 5,
+    "name": "Upma",
+    "description": "A light savory breakfast dish made from semolina and vegetables.",
+    "price": 50,
+    "image": "https://example.com/images/upma.jpg",
+    "serving": "1 bowl"
   },
   {
-    "id": 106,
-    "name": "Masala Dosa",
-    "price": 145,
-    "image": "https://i.imgur.com/roNVmJt.jpg"
+    "id": 6,
+    "name": "Uttapam",
+    "description": "Thick dosa topped with onions, tomatoes, and green chillies.",
+    "price": 65,
+    "image": "https://example.com/images/uttapam.jpg",
+    "serving": "1 piece"
   },
   {
-    "id": 107,
-    "name": "Idli Sambar",
-    "price": 99,
-    "image": "https://i.imgur.com/6QO30KY.jpg"
+    "id": 7,
+    "name": "Kesari Bath",
+    "description": "A sweet dish made of semolina, ghee, and saffron.",
+    "price": 40,
+    "image": "https://example.com/images/kesari.jpg",
+    "serving": "1 bowl"
   },
   {
-    "id": 108,
-    "name": "Pizza Margherita",
-    "price": 299,
-    "image": "https://i.imgur.com/1odXUjL.jpg"
+    "id": 8,
+    "name": "Curd Rice",
+    "description": "Cooked rice mixed with curd, tempered with mustard seeds and curry leaves.",
+    "price": 50,
+    "image": "https://example.com/images/curd_rice.jpg",
+    "serving": "1 bowl"
   },
   {
-    "id": 109,
-    "name": "Veg Manchurian",
-    "price": 199,
-    "image": "https://i.imgur.com/6b6fBPJ.jpg"
+    "id": 9,
+    "name": "Lemon Rice",
+    "description": "Tangy and flavorful rice dish prepared with lemon juice and spices.",
+    "price": 55,
+    "image": "https://example.com/images/lemon_rice.jpg",
+    "serving": "1 bowl"
   },
   {
-    "id": 110,
-    "name": "Fried Rice",
-    "price": 169,
-    "image": "https://i.imgur.com/M9exkzW.jpg"
+    "id": 10,
+    "name": "Tamarind Rice (Puliyodarai)",
+    "description": "Spicy and tangy rice preparation with tamarind paste and groundnuts.",
+    "price": 60,
+    "image": "https://example.com/images/tamarind_rice.jpg",
+    "serving": "1 bowl"
   }
 ]
+
 
   },
   {
@@ -300,68 +390,89 @@
     "offer": "30%",
     "bankoffer": "10%",
     "image": "https://b.zmtcdn.com/data/reviews_photos/19c/8d95b2ce6e62dd92aa2414c837d0a19c_1531809590.jpg",
-    "menu": [
+    "menu":[
   {
-    "id": 101,
-    "name": "Paneer Butter Masala",
-    "price": 249,
-    "image": "https://i.imgur.com/V7ZxgGu.jpg"
+    "id": 1,
+    "name": "Chocolate Brownie",
+    "description": "Rich and gooey chocolate brownie served warm with nuts.",
+    "price": 90,
+    "image": "https://example.com/images/chocolate_brownie.jpg",
+    "serving": "1 piece"
   },
   {
-    "id": 102,
-    "name": "Chicken Biryani",
-    "price": 299,
-    "image": "https://i.imgur.com/b9zDbyb.jpg"
+    "id": 2,
+    "name": "Vanilla Ice Cream",
+    "description": "Classic vanilla-flavored ice cream scoop made with real cream.",
+    "price": 60,
+    "image": "https://example.com/images/vanilla_icecream.jpg",
+    "serving": "1 scoop"
   },
   {
-    "id": 103,
-    "name": "Veg Pulao",
-    "price": 189,
-    "image": "https://i.imgur.com/BJKwz2z.jpg"
+    "id": 3,
+    "name": "Strawberry Milkshake",
+    "description": "Creamy milkshake made with fresh strawberries and ice cream.",
+    "price": 120,
+    "image": "https://example.com/images/strawberry_milkshake.jpg",
+    "serving": "300ml glass"
   },
   {
-    "id": 104,
-    "name": "Tandoori Roti",
-    "price": 25,
-    "image": "https://i.imgur.com/gXj5AGd.jpg"
+    "id": 4,
+    "name": "Chocolate Lava Cake",
+    "description": "Warm chocolate cake with molten chocolate center.",
+    "price": 130,
+    "image": "https://example.com/images/lava_cake.jpg",
+    "serving": "1 piece"
   },
   {
-    "id": 105,
-    "name": "Butter Chicken",
-    "price": 319,
-    "image": "https://i.imgur.com/m3F9UIm.jpg"
+    "id": 5,
+    "name": "Oreo Milkshake",
+    "description": "Crushed Oreo cookies blended with ice cream and milk.",
+    "price": 140,
+    "image": "https://example.com/images/oreo_milkshake.jpg",
+    "serving": "300ml glass"
   },
   {
-    "id": 106,
-    "name": "Masala Dosa",
-    "price": 145,
-    "image": "https://i.imgur.com/roNVmJt.jpg"
+    "id": 6,
+    "name": "Red Velvet Cake",
+    "description": "Soft red velvet sponge cake layered with cream cheese frosting.",
+    "price": 150,
+    "image": "https://example.com/images/red_velvet_cake.jpg",
+    "serving": "1 slice"
   },
   {
-    "id": 107,
-    "name": "Idli Sambar",
-    "price": 99,
-    "image": "https://i.imgur.com/6QO30KY.jpg"
+    "id": 7,
+    "name": "Butterscotch Ice Cream",
+    "description": "Creamy butterscotch ice cream topped with crunchy pralines.",
+    "price": 70,
+    "image": "https://example.com/images/butterscotch_icecream.jpg",
+    "serving": "1 scoop"
   },
   {
-    "id": 108,
-    "name": "Pizza Margherita",
-    "price": 299,
-    "image": "https://i.imgur.com/1odXUjL.jpg"
+    "id": 8,
+    "name": "Mango Milkshake",
+    "description": "Seasonal mango milkshake with ice cream and chunks of mango.",
+    "price": 110,
+    "image": "https://example.com/images/mango_milkshake.jpg",
+    "serving": "300ml glass"
   },
   {
-    "id": 109,
-    "name": "Veg Manchurian",
-    "price": 199,
-    "image": "https://i.imgur.com/6b6fBPJ.jpg"
+    "id": 9,
+    "name": "Cheesecake",
+    "description": "Classic New York-style cheesecake with a buttery biscuit base.",
+    "price": 160,
+    "image": "https://example.com/images/cheesecake.jpg",
+    "serving": "1 slice"
   },
   {
-    "id": 110,
-    "name": "Fried Rice",
-    "price": 169,
-    "image": "https://i.imgur.com/M9exkzW.jpg"
+    "id": 10,
+    "name": "Ice Cream Sundae",
+    "description": "Three scoops of assorted ice cream with chocolate sauce and nuts.",
+    "price": 150,
+    "image": "https://example.com/images/icecream_sundae.jpg",
+    "serving": "1 bowl"
   }
 ]
+
 
   },
   {
@@ -375,64 +486,84 @@
     "image": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/06/02/8b/1a/china-pearl.jpg?w=600&h=400&s=1",
     "menu": [
   {
-    "id": 101,
-    "name": "Paneer Butter Masala",
-    "price": 249,
-    "image": "https://i.imgur.com/V7ZxgGu.jpg"
+    "id": 1,
+    "name": "Veg Hakka Noodles",
+    "description": "Stir-fried noodles tossed with vegetables in soy and garlic sauce.",
+    "price": 120,
+    "image": "https://example.com/images/veg_hakka_noodles.jpg",
+    "serving": "1 plate"
   },
   {
-    "id": 102,
-    "name": "Chicken Biryani",
-    "price": 299,
-    "image": "https://i.imgur.com/b9zDbyb.jpg"
+    "id": 2,
+    "name": "Chicken Manchurian",
+    "description": "Crispy chicken balls in spicy tangy Manchurian sauce.",
+    "price": 180,
+    "image": "https://example.com/images/chicken_manchurian.jpg",
+    "serving": "1 bowl"
   },
   {
-    "id": 103,
-    "name": "Veg Pulao",
-    "price": 189,
-    "image": "https://i.imgur.com/BJKwz2z.jpg"
+    "id": 3,
+    "name": "Spring Rolls",
+    "description": "Crispy rolls stuffed with mixed vegetables and served with dip.",
+    "price": 100,
+    "image": "https://example.com/images/spring_rolls.jpg",
+    "serving": "4 pieces"
   },
   {
-    "id": 104,
-    "name": "Tandoori Roti",
-    "price": 25,
-    "image": "https://i.imgur.com/gXj5AGd.jpg"
+    "id": 4,
+    "name": "Schezwan Fried Rice",
+    "description": "Spicy fried rice tossed with veggies and Schezwan sauce.",
+    "price": 130,
+    "image": "https://example.com/images/schezwan_fried_rice.jpg",
+    "serving": "1 plate"
   },
   {
-    "id": 105,
-    "name": "Butter Chicken",
-    "price": 319,
-    "image": "https://i.imgur.com/m3F9UIm.jpg"
+    "id": 5,
+    "name": "Chilli Paneer",
+    "description": "Cottage cheese cubes cooked in hot chili garlic sauce.",
+    "price": 160,
+    "image": "https://example.com/images/chilli_paneer.jpg",
+    "serving": "1 bowl"
   },
   {
-    "id": 106,
-    "name": "Masala Dosa",
-    "price": 145,
-    "image": "https://i.imgur.com/roNVmJt.jpg"
+    "id": 6,
+    "name": "Chicken Lollipop",
+    "description": "Fried chicken wings coated with Indo-Chinese spices.",
+    "price": 150,
+    "image": "https://example.com/images/chicken_lollipop.jpg",
+    "serving": "6 pieces"
   },
   {
-    "id": 107,
-    "name": "Idli Sambar",
-    "price": 99,
-    "image": "https://i.imgur.com/6QO30KY.jpg"
+    "id": 7,
+    "name": "Veg Manchow Soup",
+    "description": "Spicy vegetable soup topped with crispy noodles.",
+    "price": 90,
+    "image": "https://example.com/images/veg_manchow_soup.jpg",
+    "serving": "1 bowl"
   },
   {
-    "id": 108,
-    "name": "Pizza Margherita",
-    "price": 299,
-    "image": "https://i.imgur.com/1odXUjL.jpg"
+    "id": 8,
+    "name": "Gobi Manchurian",
+    "description": "Cauliflower florets deep-fried and tossed in Manchurian sauce.",
+    "price": 140,
+    "image": "https://example.com/images/gobi_manchurian.jpg",
+    "serving": "1 bowl"
   },
   {
-    "id": 109,
-    "name": "Veg Manchurian",
-    "price": 199,
-    "image": "https://i.imgur.com/6b6fBPJ.jpg"
+    "id": 9,
+    "name": "Chicken Fried Rice",
+    "description": "Wok-tossed rice with chicken, spring onions, and soy sauce.",
+    "price": 150,
+    "image": "https://example.com/images/chicken_fried_rice.jpg",
+    "serving": "1 plate"
   },
   {
-    "id": 110,
-    "name": "Fried Rice",
-    "price": 169,
-    "image": "https://i.imgur.com/M9exkzW.jpg"
+    "id": 10,
+    "name": "Momos",
+    "description": "Steamed dumplings filled with vegetables or chicken, served with spicy chutney.",
+    "price": 110,
+    "image": "https://example.com/images/momos.jpg",
+    "serving": "6 pieces"
   }
 ]
 
@@ -442,70 +573,99 @@
     "name": "Biriyani Zone",
     "location": "Marathahalli",
     "rating": 3.9,
-    "cuisine": "Hyderabadi",
+    "cuisine": "Biryani",
     "offer": "30%",
     "bankoffer": "10%",
     "image": "https://www.uengage.in/images/addo/logos/logo-10295-1676911633.png",
-    "menu": [
+    "menu":[
   {
-    "id": 101,
-    "name": "Paneer Butter Masala",
+    "id": 1,
+    "name": "Hyderabadi Biryani",
+    "description": "A spicy and flavorful biryani made with basmati rice and marinated mutton.",
     "price": 249,
-    "image": "https://i.imgur.com/V7ZxgGu.jpg"
+    "image": "https://example.com/images/hyderabadi.jpg",
+    "serving": "1 person"
   },
   {
-    "id": 102,
-    "name": "Chicken Biryani",
-    "price": 299,
-    "image": "https://i.imgur.com/b9zDbyb.jpg"
+    "id": 2,
+    "name": "Lucknowi Biryani",
+    "description": "A mildly spiced biryani with saffron flavors and tender chicken.",
+    "price": 229,
+    "image": "https://example.com/images/lucknowi.jpg",
+    
+    "serving": "1 person"
   },
   {
-    "id": 103,
-    "name": "Veg Pulao",
-    "price": 189,
-    "image": "https://i.imgur.com/BJKwz2z.jpg"
+    "id": 3,
+    "name": "Kolkata Biryani",
+    "description": "Light and aromatic biryani with potatoes, boiled eggs, and meat.",
+    "price": 219,
+    "image": "https://example.com/images/kolkata.jpg",
+    
+    "serving": "1 person"
   },
   {
-    "id": 104,
-    "name": "Tandoori Roti",
-    "price": 25,
-    "image": "https://i.imgur.com/gXj5AGd.jpg"
-  },
-  {
-    "id": 105,
-    "name": "Butter Chicken",
-    "price": 319,
-    "image": "https://i.imgur.com/m3F9UIm.jpg"
-  },
-  {
-    "id": 106,
-    "name": "Masala Dosa",
-    "price": 145,
-    "image": "https://i.imgur.com/roNVmJt.jpg"
-  },
-  {
-    "id": 107,
-    "name": "Idli Sambar",
-    "price": 99,
-    "image": "https://i.imgur.com/6QO30KY.jpg"
-  },
-  {
-    "id": 108,
-    "name": "Pizza Margherita",
-    "price": 299,
-    "image": "https://i.imgur.com/1odXUjL.jpg"
-  },
-  {
-    "id": 109,
-    "name": "Veg Manchurian",
+    "id": 4,
+    "name": "Ambur Biryani",
+    "description": "Traditional Tamil Nadu biryani cooked with short-grain rice and chicken.",
     "price": 199,
-    "image": "https://i.imgur.com/6b6fBPJ.jpg"
+    "image": "https://example.com/images/ambur.jpg",
+    
+    "serving": "1 person"
   },
   {
-    "id": 110,
-    "name": "Fried Rice",
+    "id": 5,
+    "name": "Thalassery Biryani",
+    "description": "Kerala-style biryani made with small-grained rice and aromatic spices.",
+    "price": 239,
+    "image": "https://example.com/images/thalassery.jpg",
+    
+    "serving": "1 person"
+  },
+  {
+    "id": 6,
+    "name": "Dindigul Biryani",
+    "description": "Famous Tamil Nadu biryani with seeraga samba rice and peppery masala.",
+    "price": 209,
+    "image": "https://example.com/images/dindigul.jpg",
+    
+    "serving": "1 person"
+  },
+  {
+    "id": 7,
+    "name": "Paneer Biryani",
+    "description": "Vegetarian biryani with paneer cubes and rich spices.",
+    "price": 189,
+    "image": "https://example.com/images/paneer.jpg",
+    
+    "serving": "1 person"
+  },
+  {
+    "id": 8,
+    "name": "Egg Biryani",
+    "description": "Biryani infused with boiled eggs and a spicy masala base.",
+    "price": 179,
+    "image": "https://example.com/images/egg.jpg",
+    
+    "serving": "1 person"
+  },
+  {
+    "id": 9,
+    "name": "Veg Biryani",
+    "description": "Mixed vegetables cooked with saffron rice and aromatic spices.",
     "price": 169,
-    "image": "https://i.imgur.com/M9exkzW.jpg"
+    "image": "https://example.com/images/veg.jpg",
+    
+    "serving": "1 person"
+  },
+  {
+    "id": 10,
+    "name": "Chettinad Biryani",
+    "description": "Spicy biryani made with South Indian-style Chettinad masala.",
+    "price": 219,
+    "image": "https://example.com/images/chettinad.jpg",
+    
+    "serving": "1 person"
   }
 ]
 
@@ -521,66 +681,87 @@
     "image": "https://www.uengage.in/images/addo/logos/logo-10295-1676911633.png",
     "menu": [
   {
-    "id": 101,
-    "name": "Paneer Butter Masala",
-    "price": 249,
-    "image": "https://i.imgur.com/V7ZxgGu.jpg"
+    "id": 1,
+    "name": "Masala Chai",
+    "description": "Classic Indian tea brewed with aromatic spices and milk.",
+    "price": 20,
+    "image": "https://example.com/images/masala_chai.jpg",
+    "serving": "1 cup"
   },
   {
-    "id": 102,
-    "name": "Chicken Biryani",
-    "price": 299,
-    "image": "https://i.imgur.com/b9zDbyb.jpg"
+    "id": 2,
+    "name": "Ginger Tea",
+    "description": "Refreshing tea brewed with fresh ginger and milk.",
+    "price": 20,
+    "image": "https://example.com/images/ginger_tea.jpg",
+    "serving": "1 cup"
   },
   {
-    "id": 103,
-    "name": "Veg Pulao",
-    "price": 189,
-    "image": "https://i.imgur.com/BJKwz2z.jpg"
-  },
-  {
-    "id": 104,
-    "name": "Tandoori Roti",
+    "id": 3,
+    "name": "Green Tea",
+    "description": "Light and healthy green tea served hot.",
     "price": 25,
-    "image": "https://i.imgur.com/gXj5AGd.jpg"
+    "image": "https://example.com/images/green_tea.jpg",
+    "serving": "1 cup"
   },
   {
-    "id": 105,
-    "name": "Butter Chicken",
-    "price": 319,
-    "image": "https://i.imgur.com/m3F9UIm.jpg"
+    "id": 4,
+    "name": "Lemon Tea",
+    "description": "Zesty lemon-flavored black tea without milk.",
+    "price": 20,
+    "image": "https://example.com/images/lemon_tea.jpg",
+    "serving": "1 cup"
   },
   {
-    "id": 106,
-    "name": "Masala Dosa",
-    "price": 145,
-    "image": "https://i.imgur.com/roNVmJt.jpg"
+    "id": 5,
+    "name": "Elaichi Tea",
+    "description": "Aromatic tea infused with cardamom flavor.",
+    "price": 20,
+    "image": "https://example.com/images/elaichi_tea.jpg",
+    "serving": "1 cup"
   },
   {
-    "id": 107,
-    "name": "Idli Sambar",
-    "price": 99,
-    "image": "https://i.imgur.com/6QO30KY.jpg"
+    "id": 6,
+    "name": "Chocolate Cake",
+    "description": "Moist and rich chocolate sponge cake slice.",
+    "price": 70,
+    "image": "https://example.com/images/chocolate_cake.jpg",
+    "serving": "1 slice"
   },
   {
-    "id": 108,
-    "name": "Pizza Margherita",
-    "price": 299,
-    "image": "https://i.imgur.com/1odXUjL.jpg"
+    "id": 7,
+    "name": "Black Forest Cake",
+    "description": "Layered chocolate cake with whipped cream and cherries.",
+    "price": 80,
+    "image": "https://example.com/images/black_forest_cake.jpg",
+    "serving": "1 slice"
   },
   {
-    "id": 109,
-    "name": "Veg Manchurian",
-    "price": 199,
-    "image": "https://i.imgur.com/6b6fBPJ.jpg"
+    "id": 8,
+    "name": "Red Velvet Cake",
+    "description": "Soft red velvet sponge with cream cheese frosting.",
+    "price": 85,
+    "image": "https://example.com/images/red_velvet_cake.jpg",
+    "serving": "1 slice"
   },
   {
-    "id": 110,
-    "name": "Fried Rice",
-    "price": 169,
-    "image": "https://i.imgur.com/M9exkzW.jpg"
+    "id": 9,
+    "name": "Vanilla Sponge Cake",
+    "description": "Light and fluffy vanilla cake served plain or with icing.",
+    "price": 60,
+    "image": "https://example.com/images/vanilla_cake.jpg",
+    "serving": "1 slice"
+  },
+  {
+    "id": 10,
+    "name": "Cupcake (Assorted)",
+    "description": "Mini cupcakes in assorted flavors like chocolate, vanilla, and strawberry.",
+    "price": 50,
+    "image": "https://example.com/images/cupcakes.jpg",
+    "serving": "2 pieces"
   }
 ]
+
 
   },
   {
@@ -588,70 +769,90 @@
     "name": "Nagarjuna",
     "location": "BTM layout",
     "rating": 4.4,
-    "cuisine": "Andhra",
+    "cuisine": "Chettinad",
     "offer": "30%",
     "bankoffer": "10%",
     "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS1Nxm3BscfY44-g58zcbYPcvjJ__yB4xblNg&s",
-    "menu": [
+    "menu":[
   {
-    "id": 101,
-    "name": "Paneer Butter Masala",
-    "price": 249,
-    "image": "https://i.imgur.com/V7ZxgGu.jpg"
+    "id": 1,
+    "name": "Chettinad Chicken Curry",
+    "description": "Spicy and flavorful chicken curry cooked with freshly ground Chettinad masala.",
+    "price": 180,
+    "image": "https://example.com/images/chettinad_chicken_curry.jpg",
+    "serving": "1 bowl"
   },
   {
-    "id": 102,
-    "name": "Chicken Biryani",
-    "price": 299,
-    "image": "https://i.imgur.com/b9zDbyb.jpg"
+    "id": 2,
+    "name": "Chettinad Mutton Chukka",
+    "description": "Dry-fried mutton pieces coated in spicy Chettinad masala and curry leaves.",
+    "price": 220,
+    "image": "https://example.com/images/chettinad_mutton_chukka.jpg",
+    "serving": "1 plate"
   },
   {
-    "id": 103,
-    "name": "Veg Pulao",
-    "price": 189,
-    "image": "https://i.imgur.com/BJKwz2z.jpg"
+    "id": 3,
+    "name": "Kozhi Varuval",
+    "description": "Traditional Chettinad chicken fry made with robust spices and coconut.",
+    "price": 190,
+    "image": "https://example.com/images/kozhi_varuval.jpg",
+    "serving": "1 plate"
   },
   {
-    "id": 104,
-    "name": "Tandoori Roti",
-    "price": 25,
-    "image": "https://i.imgur.com/gXj5AGd.jpg"
+    "id": 4,
+    "name": "Vellai Paniyaram",
+    "description": "Crispy, white fluffy paniyaram made from rice flour and urad dal batter.",
+    "price": 60,
+    "image": "https://example.com/images/vellai_paniyaram.jpg",
+    "serving": "4 pieces"
   },
   {
-    "id": 105,
-    "name": "Butter Chicken",
-    "price": 319,
-    "image": "https://i.imgur.com/m3F9UIm.jpg"
+    "id": 5,
+    "name": "Kara Kuzhambu",
+    "description": "Tangy tamarind-based curry with shallots, garlic, and Chettinad spices.",
+    "price": 100,
+    "image": "https://example.com/images/kara_kuzhambu.jpg",
+    "serving": "1 bowl"
   },
   {
-    "id": 106,
-    "name": "Masala Dosa",
-    "price": 145,
-    "image": "https://i.imgur.com/roNVmJt.jpg"
+    "id": 6,
+    "name": "Chettinad Egg Curry",
+    "description": "Boiled eggs simmered in spicy tomato-onion gravy with Chettinad masala.",
+    "price": 120,
+    "image": "https://example.com/images/chettinad_egg_curry.jpg",
+    "serving": "2 eggs per bowl"
   },
   {
-    "id": 107,
-    "name": "Idli Sambar",
-    "price": 99,
-    "image": "https://i.imgur.com/6QO30KY.jpg"
+    "id": 7,
+    "name": "Paal Kozhukattai",
+    "description": "Sweet Chettinad dessert made with rice flour balls cooked in jaggery and coconut milk.",
+    "price": 70,
+    "image": "https://example.com/images/paal_kozhukattai.jpg",
+    "serving": "1 bowl"
   },
   {
-    "id": 108,
-    "name": "Pizza Margherita",
-    "price": 299,
-    "image": "https://i.imgur.com/1odXUjL.jpg"
+    "id": 8,
+    "name": "Kaara Sevai",
+    "description": "Spicy rice sevai (idiyappam) tossed with onions, chilies, and Chettinad masala.",
+    "price": 90,
+    "image": "https://example.com/images/chettinad_kaara_sevai.jpg",
+    "serving": "1 plate"
   },
   {
-    "id": 109,
-    "name": "Veg Manchurian",
-    "price": 199,
-    "image": "https://i.imgur.com/6b6fBPJ.jpg"
+    "id": 9,
+    "name": "Fish Fry Chettinad Style",
+    "description": "Marinated fish shallow-fried with a blend of Chettinad spices.",
+    "price": 200,
+    "image": "https://example.com/images/chettinad_fish_fry.jpg",
+    "serving": "2 pieces"
   },
   {
-    "id": 110,
-    "name": "Fried Rice",
-    "price": 169,
-    "image": "https://i.imgur.com/M9exkzW.jpg"
+    "id": 10,
+    "name": "Kavuni Arisi",
+    "description": "Traditional black rice dessert of Chettinad sweetened with jaggery and garnished with coconut.",
+    "price": 80,
+    "image": "https://example.com/images/kavuni_arisi.jpg",
+    "serving": "1 bowl"
   }
 ]
 
@@ -661,364 +862,375 @@
     "name": "Smallys Resto Cafe",
     "location": "Jayanagar",
     "rating": 4.3,
-    "cuisine": "Continental",
+    "cuisine": "Italian",
     "offer": "25%",
     "bankoffer": "10%",
     "image": "https://content.jdmagicbox.com/v2/comp/bangalore/u4/080pxx80.xx80.151231132219.p3u4/catalogue/smallys-resto-cafe-kammanahalli-bangalore-home-delivery-restaurants-3x8nr0p.jpg?fit=around%7C550:350&crop=550:350;*,*",
-    "menu": [
+    "menu":[
   {
-    "id": 101,
-    "name": "Paneer Butter Masala",
-    "price": 249,
-    "image": "https://i.imgur.com/V7ZxgGu.jpg"
+    "id": 1,
+    "name": "Margherita Pizza",
+    "description": "Classic Italian pizza with tomato sauce, mozzarella, and fresh basil.",
+    "price": 250,
+    "image": "https://example.com/images/margherita_pizza.jpg",
+    "serving": "1 medium pizza"
   },
   {
-    "id": 102,
-    "name": "Chicken Biryani",
-    "price": 299,
-    "image": "https://i.imgur.com/b9zDbyb.jpg"
+    "id": 2,
+    "name": "Pasta Alfredo",
+    "description": "Creamy fettuccine pasta tossed in rich Alfredo sauce with parmesan.",
+    "price": 220,
+    "image": "https://example.com/images/pasta_alfredo.jpg",
+    "serving": "1 bowl"
   },
   {
-    "id": 103,
-    "name": "Veg Pulao",
-    "price": 189,
-    "image": "https://i.imgur.com/BJKwz2z.jpg"
+    "id": 3,
+    "name": "Garlic Bread",
+    "description": "Toasted bread slices topped with garlic butter and herbs.",
+    "price": 100,
+    "image": "https://example.com/images/garlic_bread.jpg",
+    "serving": "4 pieces"
   },
   {
-    "id": 104,
-    "name": "Tandoori Roti",
-    "price": 25,
-    "image": "https://i.imgur.com/gXj5AGd.jpg"
+    "id": 4,
+    "name": "Spaghetti Bolognese",
+    "description": "Spaghetti served with slow-cooked minced meat tomato sauce.",
+    "price": 230,
+    "image": "https://example.com/images/spaghetti_bolognese.jpg",
+    "serving": "1 plate"
   },
   {
-    "id": 105,
-    "name": "Butter Chicken",
-    "price": 319,
-    "image": "https://i.imgur.com/m3F9UIm.jpg"
+    "id": 5,
+    "name": "Four Cheese Pizza",
+    "description": "Pizza topped with mozzarella, cheddar, parmesan, and blue cheese.",
+    "price": 280,
+    "image": "https://example.com/images/four_cheese_pizza.jpg",
+    "serving": "1 medium pizza"
   },
   {
-    "id": 106,
-    "name": "Masala Dosa",
-    "price": 145,
-    "image": "https://i.imgur.com/roNVmJt.jpg"
+    "id": 6,
+    "name": "Bruschetta",
+    "description": "Grilled bread topped with diced tomatoes, basil, and olive oil.",
+    "price": 120,
+    "image": "https://example.com/images/bruschetta.jpg",
+    "serving": "4 pieces"
   },
   {
-    "id": 107,
-    "name": "Idli Sambar",
-    "price": 99,
-    "image": "https://i.imgur.com/6QO30KY.jpg"
+    "id": 7,
+    "name": "Penne Arrabbiata",
+    "description": "Penne pasta cooked in spicy tomato garlic sauce.",
+    "price": 200,
+    "image": "https://example.com/images/penne_arrabbiata.jpg",
+    "serving": "1 bowl"
   },
   {
-    "id": 108,
-    "name": "Pizza Margherita",
-    "price": 299,
-    "image": "https://i.imgur.com/1odXUjL.jpg"
+    "id": 8,
+    "name": "Lasagna",
+    "description": "Layered pasta with béchamel, meat, cheese, and tomato sauce.",
+    "price": 250,
+    "image": "https://example.com/images/lasagna.jpg",
+    "serving": "1 slice"
   },
   {
-    "id": 109,
-    "name": "Veg Manchurian",
-    "price": 199,
-    "image": "https://i.imgur.com/6b6fBPJ.jpg"
+    "id": 9,
+    "name": "Minestrone Soup",
+    "description": "Hearty vegetable soup with beans, pasta, and herbs.",
+    "price": 150,
+    "image": "https://example.com/images/minestrone_soup.jpg",
+    "serving": "1 bowl"
   },
   {
-    "id": 110,
-    "name": "Fried Rice",
-    "price": 169,
-    "image": "https://i.imgur.com/M9exkzW.jpg"
+    "id": 10,
+    "name": "Tiramisu",
+    "description": "Classic Italian dessert with layers of coffee-soaked ladyfingers and mascarpone.",
+    "price": 180,
+    "image": "https://example.com/images/tiramisu.jpg",
+    "serving": "1 piece"
   }
 ]
+
 
   },
   {
     "id": 11,
     "name": "Aaha Bhojanam",
     "image": "https://lh3.googleusercontent.com/A952pN2KF0hqKIeSHASVAI3xt8_gKpgifTHrr_1heF4zwtoz7CBX7ctkLMbSM8sQBofkfkK_QyX0qeIUzhH9cwzI6XXPITaXjOso3daO=w300-rw",
-    "cuisine": "Andhra~North Indian",
+    "cuisine": "Hyderabadi",
     "location": "Whitefield",
     "offer": "30%",
     "bankoffer": "25%",
     "rating": "4.3",
     "menu": [
   {
-    "id": 101,
-    "name": "Paneer Butter Masala",
-    "price": 249,
-    "image": "https://i.imgur.com/V7ZxgGu.jpg"
+    "id": 1,
+    "name": "Hyderabadi Biryani",
+    "description": "Fragrant basmati rice layered with marinated meat and saffron, cooked in dum style.",
+    "price": 250,
+    "image": "https://example.com/images/hyderabadi_biryani.jpg",
+    "serving": "1 plate"
   },
   {
-    "id": 102,
-    "name": "Chicken Biryani",
-    "price": 299,
-    "image": "https://i.imgur.com/b9zDbyb.jpg"
+    "id": 2,
+    "name": "Double Ka Meetha",
+    "description": "Traditional Hyderabadi bread pudding made with fried bread, milk, sugar, and dry fruits.",
+    "price": 100,
+    "image": "https://example.com/images/double_ka_meetha.jpg",
+    "serving": "1 bowl"
   },
   {
-    "id": 103,
-    "name": "Veg Pulao",
-    "price": 189,
-    "image": "https://i.imgur.com/BJKwz2z.jpg"
+    "id": 3,
+    "name": "Hyderabadi Haleem",
+    "description": "Slow-cooked stew of meat, wheat, and lentils, rich in flavor and texture.",
+    "price": 220,
+    "image": "https://example.com/images/hyderabadi_haleem.jpg",
+    "serving": "1 bowl"
   },
   {
-    "id": 104,
-    "name": "Tandoori Roti",
-    "price": 25,
-    "image": "https://i.imgur.com/gXj5AGd.jpg"
+    "id": 4,
+    "name": "Bagara Baingan",
+    "description": "Small brinjals cooked in tangy, spicy sesame-peanut-coconut gravy.",
+    "price": 130,
+    "image": "https://example.com/images/bagara_baingan.jpg",
+    "serving": "1 bowl"
   },
   {
-    "id": 105,
-    "name": "Butter Chicken",
-    "price": 319,
-    "image": "https://i.imgur.com/m3F9UIm.jpg"
+    "id": 5,
+    "name": "Mirchi Ka Salan",
+    "description": "Chilies simmered in a creamy peanut-sesame curry, served as a side with biryani.",
+    "price": 120,
+    "image": "https://example.com/images/mirchi_ka_salan.jpg",
+    "serving": "1 bowl"
   },
   {
-    "id": 106,
-    "name": "Masala Dosa",
-    "price": 145,
-    "image": "https://i.imgur.com/roNVmJt.jpg"
+    "id": 6,
+    "name": "Khubani Ka Meetha",
+    "description": "Sweet dessert made with dried apricots, served with cream or custard.",
+    "price": 110,
+    "image": "https://example.com/images/khubani_ka_meetha.jpg",
+    "serving": "1 bowl"
   },
   {
-    "id": 107,
-    "name": "Idli Sambar",
-    "price": 99,
-    "image": "https://i.imgur.com/6QO30KY.jpg"
+    "id": 7,
+    "name": "Hyderabadi Dum Ka Chicken",
+    "description": "Slow-cooked chicken curry with yogurt, fried onions, and rich spices.",
+    "price": 190,
+    "image": "https://example.com/images/dum_ka_chicken.jpg",
+    "serving": "1 bowl"
   },
   {
-    "id": 108,
-    "name": "Pizza Margherita",
-    "price": 299,
-    "image": "https://i.imgur.com/1odXUjL.jpg"
+    "id": 8,
+    "name": "Keema Samosa",
+    "description": "Fried triangular pastries filled with spicy minced meat.",
+    "price": 80,
+    "image": "https://example.com/images/keema_samosa.jpg",
+    "serving": "2 pieces"
   },
   {
-    "id": 109,
-    "name": "Veg Manchurian",
-    "price": 199,
-    "image": "https://i.imgur.com/6b6fBPJ.jpg"
+    "id": 9,
+    "name": "Hyderabadi Khichdi & Khatta",
+    "description": "Mild rice and lentil khichdi served with a tangy tamarind-based khatta gravy.",
+    "price": 140,
+    "image": "https://example.com/images/hyderabadi_khichdi.jpg",
+    "serving": "1 plate with side"
   },
   {
-    "id": 110,
-    "name": "Fried Rice",
-    "price": 169,
-    "image": "https://i.imgur.com/M9exkzW.jpg"
+    "id": 10,
+    "name": "Talawa Gosht",
+    "description": "Deep-fried mutton pieces, crispy outside and juicy inside, served with rice or naan.",
+    "price": 210,
+    "image": "https://example.com/images/talawa_gosht.jpg",
+    "serving": "1 plate"
   }
 ]
+
 
   },
   {
     "id": 12,
     "name": "Dhaba Estd 1986 Delhi",
     "image": "https://lh3.googleusercontent.com/huiEVUbdV4nvWfd0pDZj0pfdmuXuPTAo0nHVC-B7PEz-L9W-3H76P_-H41CXg42hc5nLpJ0fEDmAOoVukmnLHhubS21mdObYnpDdW6Tv=w1200-rw",
-    "cuisine": "Mughlai~North Indian",
+    "cuisine": "North Indian",
     "location": "Electronic city",
     "offer": "25%",
     "bankoffer": "10%",
     "rating": "4.0",
-    "menu": [
+    "menu":[
   {
-    "id": 101,
-    "name": "Paneer Butter Masala",
-    "price": 249,
-    "image": "https://i.imgur.com/V7ZxgGu.jpg"
+    "id": 1,
+    "name": "Aloo Paratha",
+    "description": "Whole wheat flatbread stuffed with spiced mashed potatoes, served with curd and pickle.",
+    "price": 90,
+    "image": "https://example.com/images/aloo_paratha.jpg",
+    "serving": "2 pieces"
   },
   {
-    "id": 102,
-    "name": "Chicken Biryani",
-    "price": 299,
-    "image": "https://i.imgur.com/b9zDbyb.jpg"
+    "id": 2,
+    "name": "Rajma Chawal",
+    "description": "Red kidney beans curry served with steamed basmati rice.",
+    "price": 130,
+    "image": "https://example.com/images/rajma_chawal.jpg",
+    "serving": "1 plate"
   },
   {
-    "id": 103,
-    "name": "Veg Pulao",
-    "price": 189,
-    "image": "https://i.imgur.com/BJKwz2z.jpg"
+    "id": 3,
+    "name": "Baingan Bharta",
+    "description": "Smoky mashed eggplant cooked with onion, tomatoes, and spices.",
+    "price": 120,
+    "image": "https://example.com/images/baingan_bharta.jpg",
+    "serving": "1 bowl"
   },
   {
-    "id": 104,
+    "id": 4,
+    "name": "Kadhi Pakora",
+    "description": "Spiced gram flour yogurt curry with onion fritters.",
+    "price": 110,
+    "image": "https://example.com/images/kadhi_pakora.jpg",
+    "serving": "1 bowl"
+  },
+  {
+    "id": 5,
+    "name": "Chana Masala",
+    "description": "Spicy and tangy chickpeas cooked in onion-tomato gravy.",
+    "price": 125,
+    "image": "https://example.com/images/chana_masala.jpg",
+    "serving": "1 bowl"
+  },
+  {
+    "id": 6,
     "name": "Tandoori Roti",
-    "price": 25,
-    "image": "https://i.imgur.com/gXj5AGd.jpg"
+    "description": "Clay-oven roasted whole wheat roti brushed with ghee.",
+    "price": 20,
+    "image": "https://example.com/images/tandoori_roti.jpg",
+    "serving": "1 piece"
   },
   {
-    "id": 105,
-    "name": "Butter Chicken",
-    "price": 319,
-    "image": "https://i.imgur.com/m3F9UIm.jpg"
+    "id": 7,
+    "name": "Bhindi Masala",
+    "description": "Stir-fried okra with onions, tomatoes, and dry spices.",
+    "price": 110,
+    "image": "https://example.com/images/bhindi_masala.jpg",
+    "serving": "1 bowl"
   },
   {
-    "id": 106,
-    "name": "Masala Dosa",
-    "price": 145,
-    "image": "https://i.imgur.com/roNVmJt.jpg"
+    "id": 8,
+    "name": "Kachori with Aloo Sabzi",
+    "description": "Fried flaky kachoris served with spicy potato curry.",
+    "price": 100,
+    "image": "https://example.com/images/kachori_aloo.jpg",
+    "serving": "2 kachoris with sabzi"
   },
   {
-    "id": 107,
-    "name": "Idli Sambar",
-    "price": 99,
-    "image": "https://i.imgur.com/6QO30KY.jpg"
+    "id": 9,
+    "name": "Litti Chokha",
+    "description": "Bihar-style stuffed wheat balls served with mashed spiced brinjal and potato.",
+    "price": 140,
+    "image": "https://example.com/images/litti_chokha.jpg",
+    "serving": "3 littis with chokha"
   },
   {
-    "id": 108,
-    "name": "Pizza Margherita",
-    "price": 299,
-    "image": "https://i.imgur.com/1odXUjL.jpg"
-  },
-  {
-    "id": 109,
-    "name": "Veg Manchurian",
-    "price": 199,
-    "image": "https://i.imgur.com/6b6fBPJ.jpg"
-  },
-  {
-    "id": 110,
-    "name": "Fried Rice",
-    "price": 169,
-    "image": "https://i.imgur.com/M9exkzW.jpg"
+    "id": 10,
+    "name": "Gatta Curry",
+    "description": "Steamed gram flour dumplings in spicy yogurt gravy — a Rajasthani specialty.",
+    "price": 130,
+    "image": "https://example.com/images/gatta_curry.jpg",
+    "serving": "1 bowl"
   }
 ]
+
 
   },
   {
     "id": 13,
     "name": "Shao Radisson Blu",
     "image": "https://b.zmtcdn.com/data/pictures/4/52374/aafeb7ba52e3f8b3d9c8021940d25220.jpg?fit=around|750:500&crop=750:500;*,*",
-    "cuisine": "Japanese~Thai",
+    "cuisine": "Italian",
     "location": "Marathahalli",
     "offer": "30%",
     "bankoffer": "5%",
     "rating": "4.2",
-    "menu": [
+    "menu":[
   {
-    "id": 101,
-    "name": "Paneer Butter Masala",
-    "price": 249,
-    "image": "https://i.imgur.com/V7ZxgGu.jpg"
+    "id": 1,
+    "name": "Caprese Salad",
+    "description": "Fresh mozzarella, tomatoes, and basil drizzled with olive oil and balsamic glaze.",
+    "price": 180,
+    "image": "https://example.com/images/caprese_salad.jpg",
+    "serving": "1 plate"
   },
   {
-    "id": 102,
-    "name": "Chicken Biryani",
-    "price": 299,
-    "image": "https://i.imgur.com/b9zDbyb.jpg"
+    "id": 2,
+    "name": "Ravioli di Ricotta",
+    "description": "Pasta pockets filled with ricotta cheese and spinach, served with tomato sauce.",
+    "price": 240,
+    "image": "https://example.com/images/ravioli_ricotta.jpg",
+    "serving": "6 pieces"
   },
   {
-    "id": 103,
-    "name": "Veg Pulao",
-    "price": 189,
-    "image": "https://i.imgur.com/BJKwz2z.jpg"
+    "id": 3,
+    "name": "Gnocchi al Pesto",
+    "description": "Soft potato dumplings tossed in basil pesto sauce and garnished with parmesan.",
+    "price": 220,
+    "image": "https://example.com/images/gnocchi_pesto.jpg",
+    "serving": "1 bowl"
   },
   {
-    "id": 104,
-    "name": "Tandoori Roti",
-    "price": 25,
-    "image": "https://i.imgur.com/gXj5AGd.jpg"
+    "id": 4,
+    "name": "Risotto ai Funghi",
+    "description": "Creamy risotto cooked with wild mushrooms, garlic, and white wine.",
+    "price": 260,
+    "image": "https://example.com/images/risotto_funghi.jpg",
+    "serving": "1 bowl"
   },
   {
-    "id": 105,
-    "name": "Butter Chicken",
-    "price": 319,
-    "image": "https://i.imgur.com/m3F9UIm.jpg"
+    "id": 5,
+    "name": "Polenta with Marinara",
+    "description": "Soft cornmeal polenta served with tangy marinara sauce and herbs.",
+    "price": 190,
+    "image": "https://example.com/images/polenta_marinara.jpg",
+    "serving": "1 plate"
   },
   {
-    "id": 106,
-    "name": "Masala Dosa",
-    "price": 145,
-    "image": "https://i.imgur.com/roNVmJt.jpg"
+    "id": 6,
+    "name": "Prosciutto e Melone",
+    "description": "Thinly sliced cured ham served with chilled sweet melon.",
+    "price": 210,
+    "image": "https://example.com/images/prosciutto_melone.jpg",
+    "serving": "1 plate"
   },
   {
-    "id": 107,
-    "name": "Idli Sambar",
-    "price": 99,
-    "image": "https://i.imgur.com/6QO30KY.jpg"
+    "id": 7,
+    "name": "Calzone",
+    "description": "Folded pizza stuffed with cheese, tomato sauce, and assorted fillings.",
+    "price": 230,
+    "image": "https://example.com/images/calzone.jpg",
+    "serving": "1 piece"
   },
   {
-    "id": 108,
-    "name": "Pizza Margherita",
-    "price": 299,
-    "image": "https://i.imgur.com/1odXUjL.jpg"
+    "id": 8,
+    "name": "Panna Cotta",
+    "description": "Silky vanilla cream dessert topped with berry sauce or caramel.",
+    "price": 160,
+    "image": "https://example.com/images/panna_cotta.jpg",
+    "serving": "1 cup"
   },
   {
-    "id": 109,
-    "name": "Veg Manchurian",
-    "price": 199,
-    "image": "https://i.imgur.com/6b6fBPJ.jpg"
+    "id": 9,
+    "name": "Arancini",
+    "description": "Crispy fried rice balls filled with cheese or meat, a Sicilian classic.",
+    "price": 150,
+    "image": "https://example.com/images/arancini.jpg",
+    "serving": "3 pieces"
   },
   {
-    "id": 110,
-    "name": "Fried Rice",
-    "price": 169,
-    "image": "https://i.imgur.com/M9exkzW.jpg"
+    "id": 10,
+    "name": "Focaccia Bread",
+    "description": "Oven-baked Italian bread topped with olive oil, rosemary, and sea salt.",
+    "price": 120,
+    "image": "https://example.com/images/focaccia.jpg",
+    "serving": "4 slices"
+  }
+]
   }
 ]
 
-  },
-  {
-    "id": 14,
-    "name": "The Big Baadshaah",
-    "image": "https://dineout-media-assets.swiggy.com/swiggy/image/upload/fl_lossy,f_auto,q_auto/v1660828680/siqb8r7i6tuotdvzvxdt.jpg",
-    "cuisine": "Italian~persian~Pan asian",
-    "location": "Marathahalli",
-    "offer": "25%",
-    "bankoffer": "10%",
-    "rating": "3.9",
-    "menu": [
-  {
-    "id": 101,
-    "name": "Paneer Butter Masala",
-    "price": 249,
-    "image": "https://i.imgur.com/V7ZxgGu.jpg"
-  },
-  {
-    "id": 102,
-    "name": "Chicken Biryani",
-    "price": 299,
-    "image": "https://i.imgur.com/b9zDbyb.jpg"
-  },
-  {
-    "id": 103,
-    "name": "Veg Pulao",
-    "price": 189,
-    "image": "https://i.imgur.com/BJKwz2z.jpg"
-  },
-  {
-    "id": 104,
-    "name": "Tandoori Roti",
-    "price": 25,
-    "image": "https://i.imgur.com/gXj5AGd.jpg"
-  },
-  {
-    "id": 105,
-    "name": "Butter Chicken",
-    "price": 319,
-    "image": "https://i.imgur.com/m3F9UIm.jpg"
-  },
-  {
-    "id": 106,
-    "name": "Masala Dosa",
-    "price": 145,
-    "image": "https://i.imgur.com/roNVmJt.jpg"
-  },
-  {
-    "id": 107,
-    "name": "Idli Sambar",
-    "price": 99,
-    "image": "https://i.imgur.com/6QO30KY.jpg"
-  },
-  {
-    "id": 108,
-    "name": "Pizza Margherita",
-    "price": 299,
-    "image": "https://i.imgur.com/1odXUjL.jpg"
-  },
-  {
-    "id": 109,
-    "name": "Veg Manchurian",
-    "price": 199,
-    "image": "https://i.imgur.com/6b6fBPJ.jpg"
-  },
-  {
-    "id": 110,
-    "name": "Fried Rice",
-    "price": 169,
-    "image": "https://i.imgur.com/M9exkzW.jpg"
-  }
-]
-
-  }
-]
+  
