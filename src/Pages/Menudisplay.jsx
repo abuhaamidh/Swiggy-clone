@@ -26,7 +26,7 @@ function Menudisplay(){
     return (
         <div>
             <CommonHeader/>
-            <div style={{backgroundColor:"whitesmoke", height:'200rem'}}>
+            <div style={{backgroundColor:"whitesmoke", height:'160rem'}}>
             {data && data.filter((e) =>{
                 if(e.id === 2){
                     return true
@@ -56,16 +56,20 @@ function Menudisplay(){
                     return true;
                 }
             }).map((e) => (
-                <div className="displayMenu"> <h1 style={{fontSize:'19px',fontFamily:"'Outfit', sans-serif"}}>{e.name} </h1>
+                <div className="displayMenu"> 
+                <h1 style={{fontSize:'19px',fontFamily:"'Outfit', sans-serif"}}>{e.name} </h1>
                 <hr style={{width:'8.4rem'}}></hr>
                 {e.menu.map((item) => (
-                    <div>
+                    <div style={{maxHeight:'15rem'}}>
                     <p style={{fontWeight:'bold',fontFamily:"'Outfit', sans-serif"}}>{item.name}</p>
                     <p style={{fontFamily:"'Outfit', sans-serif"}}>₹{item.price}</p>
-                    <p style={{fontFamily:"'poppins', sans-serif", width:"30rem", fontSize:'14px'}}>{item.description}</p>
-                    <p>{item.rating}</p>
-                    <button id="ADD-btn">ADD</button>
-                    <hr style={{width:'53rem'}}></hr>
+                    <button id="menuadd-btn">ADD</button>
+                    <p id="customisable">Customisable</p>
+                    <p style={{fontFamily:"'poppins', sans-serif", width:"25rem", fontSize:'13px',marginTop:'-5rem'}}>{item.description}</p>
+                    <p style={{fontFamily:"'poppins', sans-serif", width:'80px',fontSize:'13px' }}>{item.serving}</p>
+                    
+                    
+                    <hr style={{width:'53rem', opacity:'10%'}}></hr>
                     </div>
                 ))}
                 </div>
