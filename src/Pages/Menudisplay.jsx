@@ -56,23 +56,25 @@ function Menudisplay(){
                     return true;
                 }
             }).map((e) => (
+                <div className="mennuu">
                 <div className="displayMenu"> 
                 <h1 style={{fontSize:'19px',fontFamily:"'Outfit', sans-serif"}}>{e.name} </h1>
                 <hr style={{width:'8.4rem'}}></hr>
                 {e.menu.map((item) => (
-                    <div style={{maxHeight:'15rem'}}>
+                    <div className='menu-section'style={{maxHeight:'15rem'}}>
                     <p style={{fontWeight:'bold',fontFamily:"'Outfit', sans-serif"}}>{item.name}</p>
                     <p style={{fontFamily:"'Outfit', sans-serif"}}>₹{item.price}</p>
-                    <button id="menuadd-btn">ADD</button>
-                    <p id="customisable">Customisable</p>
+                    <button >ADD</button>
+                    <span id="customisable">Customisable</span>
                     <p style={{fontFamily:"'poppins', sans-serif", width:"25rem", fontSize:'13px',marginTop:'-5rem'}}>{item.description}</p>
-                    <p style={{fontFamily:"'poppins', sans-serif", width:'80px',fontSize:'13px' }}>{item.serving}</p>
+                    <p style={{fontFamily:"'poppins', sans-serif", width:'80px',   fontSize:'13px' }}>{item.serving}</p>
                     
+                    <hr/>
                     
-                    <hr style={{width:'53rem', opacity:'10%'}}></hr>
                     </div>
                 ))}
-                </div>
+                </div> 
+                </div>   
             ))}
             
             
