@@ -412,8 +412,9 @@
   height: 80px;
   background-color: white;
   /* overflow: hidden; */
-  font-family:'Courier New', Courier, monospace;
+  font-family:'poppins', sans-serif;
   font-weight: bold;
+  font-size: 14.8px;
 }
 .logo-1 {
   height: 50px;

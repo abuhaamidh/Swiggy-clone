@@ -3,10 +3,11 @@ import Navbar from '../components/Navbar'
 import { Button, Card } from 'react-bootstrap'
 import { useNavigate } from 'react-router-dom'
 import { useLocation } from 'react-router-dom'
+import menu from '../Pages/Menu'
 import Data from "../json/product.json"
 import { TbCircleDashedPercentage } from "react-icons/tb";
 import { MdStars } from "react-icons/md";
-import axios from 'axios'
+
 
 
 function Productdisplay() {
@@ -23,23 +24,12 @@ function Productdisplay() {
   },[]);
 
   //console.log("product in render:", product);
-
-  // function getMethod(){
-  //   axios.get("https://food-power.glitch.me/restaurants?limit=5&lastDeliveryTime=0",{
-  //     headers:{
-  //       authorization : 'Bearer '+"a123123"
-  //     }
-  //   }).then((response)=>{
-  //       console.log(response.data)
-  //   }).catch((err)=>{
-  //     console.log(err)
-  //   })
-  // }
-
-  // useEffect(()=>{
-  //   getMethod()
-  // },[])
-
+ 
+  const navigate = useNavigate();
+  const handleClick = (data) => {
+      navigate(`/menu/${data.id}`)
+  }
+//  
    const filtered = product.filter((e) => {
     //console.log("Comparing:", e.location, locationInput);
     if (!locationInput) return true;
@@ -60,7 +50,7 @@ function Productdisplay() {
 
 {filtered.map((e)=> (
         
-        <Card className="card-1" style={{ border: 'none', marginLeft: "1.5%", width:'22rem' }}>
+        <Card className="card-1" onClick={() => handleClick(e)} style={{ border: 'none', marginLeft: "1.5%", width:'22rem' }}>
         <Card.Img  className='card1-img' variant="top" style={{ height: '12rem', width:'22rem' , borderTopRightRadius:'20px', borderTopLeftRadius:'20px'}} src={e.image} />
         <Card.Body style={{ backgroundColor: 'rgb(244, 255, 251)' }}>
           <Card.Title className="title-name" style={{ display: "flex", justifyContent: "space-between", alignItems: "center",marginTop:"-50px",color:"white", fontFamily:"'Outfit', sans-serif", fontWeight:'boldest'}}>
