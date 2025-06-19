@@ -9,12 +9,12 @@ import { BsMinecart } from "react-icons/bs";
 function CommonHeader() {
   return ( 
 
-
+ 
 <div className='boxx' style={{paddingTop: "1px" }}>
       <div className='header-1'>
       <img className = "logo-1" src= "https://miro.medium.com/v2/resize:fit:1000/1*TCc6vQVH-3EUiJea76pMbQ.png"></img>
       <p id ="order">Orders</p>
-      <button className='btnn-1'><FaSuitcase style={{marginRight:'5px', marginTop:'-3px',  fontFamily:"'Courier New', Courier, monospace"}}/>Swiggy Corporate</button>
+      <button className='btnn-1'><FaSuitcase style={{marginRight:'5px', marginTop:'-3px'}}/>Swiggy Corporate</button>
       <button className='btnn-2'><FiSearch style={{marginRight:'5px', marginTop:'-3px'}}/>Search</button>
       <button className='btnn-3'><RiDiscountPercentLine style={{marginRight:'5px', marginTop:'-3px'}}/>Offers</button>
       <button className='btnn-4'><IoHelpBuoyOutline style={{marginRight:'10px', marginTop:'-3px'}}/>Help</button>

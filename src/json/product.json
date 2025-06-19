@@ -85,7 +85,7 @@
     "image": "https://b.zmtcdn.com/data/pictures/0/51040/3614a681863f438e8a1018e313ed070f.jpg",
     "menu": [
   {
-    "id": 1,
+    "id": 101,
     "name": "Classic Beef Burger",
     "description": "Juicy grilled beef patty with lettuce, tomato, cheese, and mayo in a sesame bun.",
     "price": 199,
@@ -95,7 +95,7 @@
     "serving": "1 person"
   },
   {
-    "id": 2,
+    "id": 102,
     "name": "Crispy Chicken Burger",
     "description": "Fried chicken fillet with lettuce, spicy mayo, and pickles.",
     "price": 179,
@@ -105,7 +105,7 @@
     "serving": "1 person"
   },
   {
-    "id": 3,
+    "id":103,
     "name": "Spicy Paneer Burger",
     "description": "Paneer patty with Indian spices, onions, and mint chutney.",
     "price": 149,
@@ -115,7 +115,7 @@
     "serving": "1 person"
   },
   {
-    "id": 4,
+    "id": 104,
     "name": "Veggie Delight Burger",
     "description": "Mixed vegetable patty with cheese, tomato, and mayo.",
     "price": 129,
@@ -125,7 +125,7 @@
     "serving": "1 person"
   },
   {
-    "id": 5,
+    "id": 105,
     "name": "Double Cheese Burger",
     "description": "Double beef patty with extra cheese, lettuce, and mustard.",
     "price": 229,
@@ -135,7 +135,7 @@
     "serving": "1 person"
   },
   {
-    "id": 6,
+    "id": 106,
     "name": "Fish Fillet Burger",
     "description": "Crispy fish fillet with tartar sauce and iceberg lettuce.",
     "price": 189,
@@ -145,7 +145,7 @@
     "serving": "1 person"
   },
   {
-    "id": 7,
+    "id": 107,
     "name": "BBQ Chicken Burger",
     "description": "Grilled chicken patty glazed with BBQ sauce, onions, and cheese.",
     "price": 199,
@@ -155,7 +155,7 @@
     "serving": "1 person"
   },
   {
-    "id": 8,
+    "id": 108,
     "name": "Mushroom Melt Burger",
     "description": "Grilled mushrooms, cheese sauce, and veggie patty in a toasted bun.",
     "price": 159,
@@ -165,7 +165,7 @@
     "serving": "1 person"
   },
   {
-    "id": 9,
+    "id": 109,
     "name": "Peri Peri Chicken Burger",
     "description": "Chicken patty tossed in peri-peri spices with onions and garlic mayo.",
     "price": 189,
@@ -175,7 +175,7 @@
     "serving": "1 person"
   },
   {
-    "id": 10,
+    "id": 110,
     "name": "Tofu Teriyaki Burger",
     "description": "Grilled tofu in teriyaki sauce with lettuce and sesame dressing.",
     "price": 169,
@@ -199,7 +199,7 @@
     "image": "https://media-assets.swiggy.com/swiggy/image/upload/fl_lossy,f_auto,q_auto/cvo1djhbwrgfqd64k0tl",
     "menu":[
   {
-    "id": 1,
+    "id": 101,
     "name": "Hyderabadi Biryani",
     "description": "A spicy and flavorful biryani made with basmati rice and marinated mutton.",
     "price": 249,
@@ -207,7 +207,7 @@
     "serving": "1 person"
   },
   {
-    "id": 2,
+    "id": 102,
     "name": "Lucknowi Biryani",
     "description": "A mildly spiced biryani with saffron flavors and tender chicken.",
     "price": 229,
@@ -216,7 +216,7 @@
     "serving": "1 person"
   },
   {
-    "id": 3,
+    "id": 103,
     "name": "Kolkata Biryani",
     "description": "Light and aromatic biryani with potatoes, boiled eggs, and meat.",
     "price": 219,
@@ -225,7 +225,7 @@
     "serving": "1 person"
   },
   {
-    "id": 4,
+    "id": 104,
     "name": "Ambur Biryani",
     "description": "Traditional Tamil Nadu biryani cooked with short-grain rice and chicken.",
     "price": 199,
@@ -234,7 +234,7 @@
     "serving": "1 person"
   },
   {
-    "id": 5,
+    "id": 105,
     "name": "Thalassery Biryani",
     "description": "Kerala-style biryani made with small-grained rice and aromatic spices.",
     "price": 239,
@@ -243,7 +243,7 @@
     "serving": "1 person"
   },
   {
-    "id": 6,
+    "id": 106,
     "name": "Dindigul Biryani",
     "description": "Famous Tamil Nadu biryani with seeraga samba rice and peppery masala.",
     "price": 209,
@@ -252,7 +252,7 @@
     "serving": "1 person"
   },
   {
-    "id": 7,
+    "id": 107,
     "name": "Paneer Biryani",
     "description": "Vegetarian biryani with paneer cubes and rich spices.",
     "price": 189,
@@ -261,7 +261,7 @@
     "serving": "1 person"
   },
   {
-    "id": 8,
+    "id": 108,
     "name": "Egg Biryani",
     "description": "Biryani infused with boiled eggs and a spicy masala base.",
     "price": 179,
@@ -270,7 +270,7 @@
     "serving": "1 person"
   },
   {
-    "id": 9,
+    "id": 109,
     "name": "Veg Biryani",
     "description": "Mixed vegetables cooked with saffron rice and aromatic spices.",
     "price": 169,
@@ -279,7 +279,7 @@
     "serving": "1 person"
   },
   {
-    "id": 10,
+    "id": 110,
     "name": "Chettinad Biryani",
     "description": "Spicy biryani made with South Indian-style Chettinad masala.",
     "price": 219,
@@ -302,7 +302,7 @@
     "image": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/01/cf/bf/66/sukh-sagar-hotel.jpg?w=900&h=500&s=1",
     "menu":[
   {
-    "id": 1,
+    "id": 101,
     "name": "Idli",
     "description": "Soft steamed rice cakes served with coconut chutney and sambar.",
     "price": 40,
@@ -310,7 +310,7 @@
     "serving": "2 pieces"
   },
   {
-    "id": 2,
+    "id": 102,
     "name": "Dosa",
     "description": "Crispy thin rice pancake served with chutney and sambar.",
     "price": 60,
@@ -318,7 +318,7 @@
     "serving": "1 large dosa"
   },
   {
-    "id": 3,
+    "id": 103,
     "name": "Medu Vada",
     "description": "Crispy lentil fritters shaped like doughnuts, served with chutney.",
     "price": 45,
@@ -326,7 +326,7 @@
     "serving": "2 pieces"
   },
   {
-    "id": 4,
+    "id": 104,
     "name": "Pongal",
     "description": "A comforting dish made from rice and moong dal with ghee and pepper.",
     "price": 55,
@@ -334,7 +334,7 @@
     "serving": "1 bowl"
   },
   {
-    "id": 5,
+    "id": 105,
     "name": "Upma",
     "description": "A light savory breakfast dish made from semolina and vegetables.",
     "price": 50,
@@ -342,7 +342,7 @@
     "serving": "1 bowl"
   },
   {
-    "id": 6,
+    "id": 106,
     "name": "Uttapam",
     "description": "Thick dosa topped with onions, tomatoes, and green chillies.",
     "price": 65,
@@ -350,7 +350,7 @@
     "serving": "1 piece"
   },
   {
-    "id": 7,
+    "id": 107,
     "name": "Kesari Bath",
     "description": "A sweet dish made of semolina, ghee, and saffron.",
     "price": 40,
@@ -358,7 +358,7 @@
     "serving": "1 bowl"
   },
   {
-    "id": 8,
+    "id": 108,
     "name": "Curd Rice",
     "description": "Cooked rice mixed with curd, tempered with mustard seeds and curry leaves.",
     "price": 50,
@@ -366,7 +366,7 @@
     "serving": "1 bowl"
   },
   {
-    "id": 9,
+    "id": 109,
     "name": "Lemon Rice",
     "description": "Tangy and flavorful rice dish prepared with lemon juice and spices.",
     "price": 55,
@@ -374,7 +374,7 @@
     "serving": "1 bowl"
   },
   {
-    "id": 10,
+    "id": 110,
     "name": "Tamarind Rice (Puliyodarai)",
     "description": "Spicy and tangy rice preparation with tamarind paste and groundnuts.",
     "price": 60,
@@ -397,7 +397,7 @@
     "image": "https://b.zmtcdn.com/data/reviews_photos/19c/8d95b2ce6e62dd92aa2414c837d0a19c_1531809590.jpg",
     "menu":[
   {
-    "id": 1,
+    "id": 101,
     "name": "Chocolate Brownie",
     "description": "Rich and gooey chocolate brownie served warm with nuts.",
     "price": 90,
@@ -405,7 +405,7 @@
     "serving": "1 piece"
   },
   {
-    "id": 2,
+    "id": 102,
     "name": "Vanilla Ice Cream",
     "description": "Classic vanilla-flavored ice cream scoop made with real cream.",
     "price": 60,
@@ -413,7 +413,7 @@
     "serving": "1 scoop"
   },
   {
-    "id": 3,
+    "id": 103,
     "name": "Strawberry Milkshake",
     "description": "Creamy milkshake made with fresh strawberries and ice cream.",
     "price": 120,
@@ -421,7 +421,7 @@
     "serving": "300ml glass"
   },
   {
-    "id": 4,
+    "id": 104,
     "name": "Chocolate Lava Cake",
     "description": "Warm chocolate cake with molten chocolate center.",
     "price": 130,
@@ -429,7 +429,7 @@
     "serving": "1 piece"
   },
   {
-    "id": 5,
+    "id": 105,
     "name": "Oreo Milkshake",
     "description": "Crushed Oreo cookies blended with ice cream and milk.",
     "price": 140,
@@ -437,7 +437,7 @@
     "serving": "300ml glass"
   },
   {
-    "id": 6,
+    "id": 106,
     "name": "Red Velvet Cake",
     "description": "Soft red velvet sponge cake layered with cream cheese frosting.",
     "price": 150,
@@ -445,7 +445,7 @@
     "serving": "1 slice"
   },
   {
-    "id": 7,
+    "id": 107,
     "name": "Butterscotch Ice Cream",
     "description": "Creamy butterscotch ice cream topped with crunchy pralines.",
     "price": 70,
@@ -453,7 +453,7 @@
     "serving": "1 scoop"
   },
   {
-    "id": 8,
+    "id": 108,
     "name": "Mango Milkshake",
     "description": "Seasonal mango milkshake with ice cream and chunks of mango.",
     "price": 110,
@@ -461,7 +461,7 @@
     "serving": "300ml glass"
   },
   {
-    "id": 9,
+    "id": 109,
     "name": "Cheesecake",
     "description": "Classic New York-style cheesecake with a buttery biscuit base.",
     "price": 160,
@@ -469,7 +469,7 @@
     "serving": "1 slice"
   },
   {
-    "id": 10,
+    "id": 110,
     "name": "Ice Cream Sundae",
     "description": "Three scoops of assorted ice cream with chocolate sauce and nuts.",
     "price": 150,
@@ -492,7 +492,7 @@
     "image": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/06/02/8b/1a/china-pearl.jpg?w=600&h=400&s=1",
     "menu": [
   {
-    "id": 1,
+    "id": 101,
     "name": "Veg Hakka Noodles",
     "description": "Stir-fried noodles tossed with vegetables in soy and garlic sauce.",
     "price": 120,
@@ -500,7 +500,7 @@
     "serving": "1 plate"
   },
   {
-    "id": 2,
+    "id": 102,
     "name": "Chicken Manchurian",
     "description": "Crispy chicken balls in spicy tangy Manchurian sauce.",
     "price": 180,
@@ -508,7 +508,7 @@
     "serving": "1 bowl"
   },
   {
-    "id": 3,
+    "id": 103,
     "name": "Spring Rolls",
     "description": "Crispy rolls stuffed with mixed vegetables and served with dip.",
     "price": 100,
@@ -516,7 +516,7 @@
     "serving": "4 pieces"
   },
   {
-    "id": 4,
+    "id": 104,
     "name": "Schezwan Fried Rice",
     "description": "Spicy fried rice tossed with veggies and Schezwan sauce.",
     "price": 130,
@@ -524,7 +524,7 @@
     "serving": "1 plate"
   },
   {
-    "id": 5,
+    "id": 105,
     "name": "Chilli Paneer",
     "description": "Cottage cheese cubes cooked in hot chili garlic sauce.",
     "price": 160,
@@ -532,7 +532,7 @@
     "serving": "1 bowl"
   },
   {
-    "id": 6,
+    "id": 106,
     "name": "Chicken Lollipop",
     "description": "Fried chicken wings coated with Indo-Chinese spices.",
     "price": 150,
@@ -540,7 +540,7 @@
     "serving": "6 pieces"
   },
   {
-    "id": 7,
+    "id": 107,
     "name": "Veg Manchow Soup",
     "description": "Spicy vegetable soup topped with crispy noodles.",
     "price": 90,
@@ -548,7 +548,7 @@
     "serving": "1 bowl"
   },
   {
-    "id": 8,
+    "id": 108,
     "name": "Gobi Manchurian",
     "description": "Cauliflower florets deep-fried and tossed in Manchurian sauce.",
     "price": 140,
@@ -556,7 +556,7 @@
     "serving": "1 bowl"
   },
   {
-    "id": 9,
+    "id": 109,
     "name": "Chicken Fried Rice",
     "description": "Wok-tossed rice with chicken, spring onions, and soy sauce.",
     "price": 150,
@@ -564,7 +564,7 @@
     "serving": "1 plate"
   },
   {
-    "id": 10,
+    "id": 110,
     "name": "Momos",
     "description": "Steamed dumplings filled with vegetables or chicken, served with spicy chutney.",
     "price": 110,
@@ -586,7 +586,7 @@
     "image": "https://www.uengage.in/images/addo/logos/logo-10295-1676911633.png",
     "menu":[
   {
-    "id": 1,
+    "id": 101,
     "name": "Hyderabadi Biryani",
     "description": "A spicy and flavorful biryani made with basmati rice and marinated mutton.",
     "price": 249,
@@ -594,7 +594,7 @@
     "serving": "1 person"
   },
   {
-    "id": 2,
+    "id": 102,
     "name": "Lucknowi Biryani",
     "description": "A mildly spiced biryani with saffron flavors and tender chicken.",
     "price": 229,
@@ -603,7 +603,7 @@
     "serving": "1 person"
   },
   {
-    "id": 3,
+    "id": 103,
     "name": "Kolkata Biryani",
     "description": "Light and aromatic biryani with potatoes, boiled eggs, and meat.",
     "price": 219,
@@ -612,7 +612,7 @@
     "serving": "1 person"
   },
   {
-    "id": 4,
+    "id": 104,
     "name": "Ambur Biryani",
     "description": "Traditional Tamil Nadu biryani cooked with short-grain rice and chicken.",
     "price": 199,
@@ -621,7 +621,7 @@
     "serving": "1 person"
   },
   {
-    "id": 5,
+    "id": 105,
     "name": "Thalassery Biryani",
     "description": "Kerala-style biryani made with small-grained rice and aromatic spices.",
     "price": 239,
@@ -630,7 +630,7 @@
     "serving": "1 person"
   },
   {
-    "id": 6,
+    "id": 106,
     "name": "Dindigul Biryani",
     "description": "Famous Tamil Nadu biryani with seeraga samba rice and peppery masala.",
     "price": 209,
@@ -639,7 +639,7 @@
     "serving": "1 person"
   },
   {
-    "id": 7,
+    "id": 107,
     "name": "Paneer Biryani",
     "description": "Vegetarian biryani with paneer cubes and rich spices.",
     "price": 189,
@@ -648,7 +648,7 @@
     "serving": "1 person"
   },
   {
-    "id": 8,
+    "id": 108,
     "name": "Egg Biryani",
     "description": "Biryani infused with boiled eggs and a spicy masala base.",
     "price": 179,
@@ -657,7 +657,7 @@
     "serving": "1 person"
   },
   {
-    "id": 9,
+    "id": 109,
     "name": "Veg Biryani",
     "description": "Mixed vegetables cooked with saffron rice and aromatic spices.",
     "price": 169,
@@ -666,7 +666,7 @@
     "serving": "1 person"
   },
   {
-    "id": 10,
+    "id": 110,
     "name": "Chettinad Biryani",
     "description": "Spicy biryani made with South Indian-style Chettinad masala.",
     "price": 219,
@@ -689,7 +689,7 @@
     "image": "https://www.uengage.in/images/addo/logos/logo-10295-1676911633.png",
     "menu": [
   {
-    "id": 1,
+    "id": 101,
     "name": "Masala Chai",
     "description": "Classic Indian tea brewed with aromatic spices and milk.",
     "price": 20,
@@ -697,7 +697,7 @@
     "serving": "1 cup"
   },
   {
-    "id": 2,
+    "id": 102,
     "name": "Ginger Tea",
     "description": "Refreshing tea brewed with fresh ginger and milk.",
     "price": 20,
@@ -705,7 +705,7 @@
     "serving": "1 cup"
   },
   {
-    "id": 3,
+    "id": 103,
     "name": "Green Tea",
     "description": "Light and healthy green tea served hot.",
     "price": 25,
@@ -713,7 +713,7 @@
     "serving": "1 cup"
   },
   {
-    "id": 4,
+    "id": 104,
     "name": "Lemon Tea",
     "description": "Zesty lemon-flavored black tea without milk.",
     "price": 20,
@@ -721,7 +721,7 @@
     "serving": "1 cup"
   },
   {
-    "id": 5,
+    "id": 105,
     "name": "Elaichi Tea",
     "description": "Aromatic tea infused with cardamom flavor.",
     "price": 20,
@@ -729,7 +729,7 @@
     "serving": "1 cup"
   },
   {
-    "id": 6,
+    "id": 106,
     "name": "Chocolate Cake",
     "description": "Moist and rich chocolate sponge cake slice.",
     "price": 70,
@@ -737,7 +737,7 @@
     "serving": "1 slice"
   },
   {
-    "id": 7,
+    "id": 107,
     "name": "Black Forest Cake",
     "description": "Layered chocolate cake with whipped cream and cherries.",
     "price": 80,
@@ -745,7 +745,7 @@
     "serving": "1 slice"
   },
   {
-    "id": 8,
+    "id": 108,
     "name": "Red Velvet Cake",
     "description": "Soft red velvet sponge with cream cheese frosting.",
     "price": 85,
@@ -753,7 +753,7 @@
     "serving": "1 slice"
   },
   {
-    "id": 9,
+    "id": 109,
     "name": "Vanilla Sponge Cake",
     "description": "Light and fluffy vanilla cake served plain or with icing.",
     "price": 60,
@@ -761,7 +761,7 @@
     "serving": "1 slice"
   },
   {
-    "id": 10,
+    "id": 110,
     "name": "Cupcake (Assorted)",
     "description": "Mini cupcakes in assorted flavors like chocolate, vanilla, and strawberry.",
     "price": 50,
@@ -784,7 +784,7 @@
     "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS1Nxm3BscfY44-g58zcbYPcvjJ__yB4xblNg&s",
     "menu":[
   {
-    "id": 1,
+    "id": 101,
     "name": "Chettinad Chicken Curry",
     "description": "Spicy and flavorful chicken curry cooked with freshly ground Chettinad masala.",
     "price": 180,
@@ -792,7 +792,7 @@
     "serving": "1 bowl"
   },
   {
-    "id": 2,
+    "id": 102,
     "name": "Chettinad Mutton Chukka",
     "description": "Dry-fried mutton pieces coated in spicy Chettinad masala and curry leaves.",
     "price": 220,
@@ -800,7 +800,7 @@
     "serving": "1 plate"
   },
   {
-    "id": 3,
+    "id": 103,
     "name": "Kozhi Varuval",
     "description": "Traditional Chettinad chicken fry made with robust spices and coconut.",
     "price": 190,
@@ -808,7 +808,7 @@
     "serving": "1 plate"
   },
   {
-    "id": 4,
+    "id": 104,
     "name": "Vellai Paniyaram",
     "description": "Crispy, white fluffy paniyaram made from rice flour and urad dal batter.",
     "price": 60,
@@ -816,7 +816,7 @@
     "serving": "4 pieces"
   },
   {
-    "id": 5,
+    "id":105,
     "name": "Kara Kuzhambu",
     "description": "Tangy tamarind-based curry with shallots, garlic, and Chettinad spices.",
     "price": 100,
@@ -824,7 +824,7 @@
     "serving": "1 bowl"
   },
   {
-    "id": 6,
+    "id": 106,
     "name": "Chettinad Egg Curry",
     "description": "Boiled eggs simmered in spicy tomato-onion gravy with Chettinad masala.",
     "price": 120,
@@ -832,7 +832,7 @@
     "serving": "2 eggs per bowl"
   },
   {
-    "id": 7,
+    "id": 107,
     "name": "Paal Kozhukattai",
     "description": "Sweet Chettinad dessert made with rice flour balls cooked in jaggery and coconut milk.",
     "price": 70,
@@ -840,7 +840,7 @@
     "serving": "1 bowl"
   },
   {
-    "id": 8,
+    "id": 108,
     "name": "Kaara Sevai",
     "description": "Spicy rice sevai (idiyappam) tossed with onions, chilies, and Chettinad masala.",
     "price": 90,
@@ -848,7 +848,7 @@
     "serving": "1 plate"
   },
   {
-    "id": 9,
+    "id": 109,
     "name": "Fish Fry Chettinad Style",
     "description": "Marinated fish shallow-fried with a blend of Chettinad spices.",
     "price": 200,
@@ -856,7 +856,7 @@
     "serving": "2 pieces"
   },
   {
-    "id": 10,
+    "id": 110,
     "name": "Kavuni Arisi",
     "description": "Traditional black rice dessert of Chettinad sweetened with jaggery and garnished with coconut.",
     "price": 80,
@@ -878,7 +878,7 @@
     "image": "https://content.jdmagicbox.com/v2/comp/bangalore/u4/080pxx80.xx80.151231132219.p3u4/catalogue/smallys-resto-cafe-kammanahalli-bangalore-home-delivery-restaurants-3x8nr0p.jpg?fit=around%7C550:350&crop=550:350;*,*",
     "menu":[
   {
-    "id": 1,
+    "id": 101,
     "name": "Margherita Pizza",
     "description": "Classic Italian pizza with tomato sauce, mozzarella, and fresh basil.",
     "price": 250,
@@ -886,7 +886,7 @@
     "serving": "1 medium pizza"
   },
   {
-    "id": 2,
+    "id": 102,
     "name": "Pasta Alfredo",
     "description": "Creamy fettuccine pasta tossed in rich Alfredo sauce with parmesan.",
     "price": 220,
@@ -894,7 +894,7 @@
     "serving": "1 bowl"
   },
   {
-    "id": 3,
+    "id": 103,
     "name": "Garlic Bread",
     "description": "Toasted bread slices topped with garlic butter and herbs.",
     "price": 100,
@@ -902,7 +902,7 @@
     "serving": "4 pieces"
   },
   {
-    "id": 4,
+    "id": 104,
     "name": "Spaghetti Bolognese",
     "description": "Spaghetti served with slow-cooked minced meat tomato sauce.",
     "price": 230,
@@ -910,7 +910,7 @@
     "serving": "1 plate"
   },
   {
-    "id": 5,
+    "id": 105,
     "name": "Four Cheese Pizza",
     "description": "Pizza topped with mozzarella, cheddar, parmesan, and blue cheese.",
     "price": 280,
@@ -918,7 +918,7 @@
     "serving": "1 medium pizza"
   },
   {
-    "id": 6,
+    "id": 106,
     "name": "Bruschetta",
     "description": "Grilled bread topped with diced tomatoes, basil, and olive oil.",
     "price": 120,
@@ -926,7 +926,7 @@
     "serving": "4 pieces"
   },
   {
-    "id": 7,
+    "id": 107,
     "name": "Penne Arrabbiata",
     "description": "Penne pasta cooked in spicy tomato garlic sauce.",
     "price": 200,
@@ -934,7 +934,7 @@
     "serving": "1 bowl"
   },
   {
-    "id": 8,
+    "id": 108,
     "name": "Lasagna",
     "description": "Layered pasta with béchamel, meat, cheese, and tomato sauce.",
     "price": 250,
@@ -942,7 +942,7 @@
     "serving": "1 slice"
   },
   {
-    "id": 9,
+    "id": 109,
     "name": "Minestrone Soup",
     "description": "Hearty vegetable soup with beans, pasta, and herbs.",
     "price": 150,
@@ -950,7 +950,7 @@
     "serving": "1 bowl"
   },
   {
-    "id": 10,
+    "id": 110,
     "name": "Tiramisu",
     "description": "Classic Italian dessert with layers of coffee-soaked ladyfingers and mascarpone.",
     "price": 180,
@@ -973,7 +973,7 @@
     "rating": "4.3",
     "menu": [
   {
-    "id": 1,
+    "id": 101,
     "name": "Hyderabadi Biryani",
     "description": "Fragrant basmati rice layered with marinated meat and saffron, cooked in dum style.",
     "price": 250,
@@ -981,7 +981,7 @@
     "serving": "1 plate"
   },
   {
-    "id": 2,
+    "id": 102,
     "name": "Double Ka Meetha",
     "description": "Traditional Hyderabadi bread pudding made with fried bread, milk, sugar, and dry fruits.",
     "price": 100,
@@ -989,7 +989,7 @@
     "serving": "1 bowl"
   },
   {
-    "id": 3,
+    "id": 103,
     "name": "Hyderabadi Haleem",
     "description": "Slow-cooked stew of meat, wheat, and lentils, rich in flavor and texture.",
     "price": 220,
@@ -997,7 +997,7 @@
     "serving": "1 bowl"
   },
   {
-    "id": 4,
+    "id": 104,
     "name": "Bagara Baingan",
     "description": "Small brinjals cooked in tangy, spicy sesame-peanut-coconut gravy.",
     "price": 130,
@@ -1005,7 +1005,7 @@
     "serving": "1 bowl"
   },
   {
-    "id": 5,
+    "id": 105,
     "name": "Mirchi Ka Salan",
     "description": "Chilies simmered in a creamy peanut-sesame curry, served as a side with biryani.",
     "price": 120,
@@ -1013,7 +1013,7 @@
     "serving": "1 bowl"
   },
   {
-    "id": 6,
+    "id": 106,
     "name": "Khubani Ka Meetha",
     "description": "Sweet dessert made with dried apricots, served with cream or custard.",
     "price": 110,
@@ -1021,7 +1021,7 @@
     "serving": "1 bowl"
   },
   {
-    "id": 7,
+    "id": 107,
     "name": "Hyderabadi Dum Ka Chicken",
     "description": "Slow-cooked chicken curry with yogurt, fried onions, and rich spices.",
     "price": 190,
@@ -1029,7 +1029,7 @@
     "serving": "1 bowl"
   },
   {
-    "id": 8,
+    "id": 108,
     "name": "Keema Samosa",
     "description": "Fried triangular pastries filled with spicy minced meat.",
     "price": 80,
@@ -1037,7 +1037,7 @@
     "serving": "2 pieces"
   },
   {
-    "id": 9,
+    "id": 109,
     "name": "Hyderabadi Khichdi & Khatta",
     "description": "Mild rice and lentil khichdi served with a tangy tamarind-based khatta gravy.",
     "price": 140,
@@ -1045,7 +1045,7 @@
     "serving": "1 plate with side"
   },
   {
-    "id": 10,
+    "id": 110,
     "name": "Talawa Gosht",
     "description": "Deep-fried mutton pieces, crispy outside and juicy inside, served with rice or naan.",
     "price": 210,
@@ -1068,7 +1068,7 @@
     "rating": "4.0",
     "menu":[
   {
-    "id": 1,
+    "id": 101,
     "name": "Aloo Paratha",
     "description": "Whole wheat flatbread stuffed with spiced mashed potatoes, served with curd and pickle.",
     "price": 90,
@@ -1076,7 +1076,7 @@
     "serving": "2 pieces"
   },
   {
-    "id": 2,
+    "id": 102,
     "name": "Rajma Chawal",
     "description": "Red kidney beans curry served with steamed basmati rice.",
     "price": 130,
@@ -1084,7 +1084,7 @@
     "serving": "1 plate"
   },
   {
-    "id": 3,
+    "id": 103,
     "name": "Baingan Bharta",
     "description": "Smoky mashed eggplant cooked with onion, tomatoes, and spices.",
     "price": 120,
@@ -1092,7 +1092,7 @@
     "serving": "1 bowl"
   },
   {
-    "id": 4,
+    "id": 104,
     "name": "Kadhi Pakora",
     "description": "Spiced gram flour yogurt curry with onion fritters.",
     "price": 110,
@@ -1100,7 +1100,7 @@
     "serving": "1 bowl"
   },
   {
-    "id": 5,
+    "id": 105,
     "name": "Chana Masala",
     "description": "Spicy and tangy chickpeas cooked in onion-tomato gravy.",
     "price": 125,
@@ -1108,7 +1108,7 @@
     "serving": "1 bowl"
   },
   {
-    "id": 6,
+    "id": 106,
     "name": "Tandoori Roti",
     "description": "Clay-oven roasted whole wheat roti brushed with ghee.",
     "price": 20,
@@ -1116,7 +1116,7 @@
     "serving": "1 piece"
   },
   {
-    "id": 7,
+    "id": 107,
     "name": "Bhindi Masala",
     "description": "Stir-fried okra with onions, tomatoes, and dry spices.",
     "price": 110,
@@ -1124,7 +1124,7 @@
     "serving": "1 bowl"
   },
   {
-    "id": 8,
+    "id": 108,
     "name": "Kachori with Aloo Sabzi",
     "description": "Fried flaky kachoris served with spicy potato curry.",
     "price": 100,
@@ -1132,7 +1132,7 @@
     "serving": "2 kachoris with sabzi"
   },
   {
-    "id": 9,
+    "id": 109,
     "name": "Litti Chokha",
     "description": "Bihar-style stuffed wheat balls served with mashed spiced brinjal and potato.",
     "price": 140,
@@ -1140,7 +1140,7 @@
     "serving": "3 littis with chokha"
   },
   {
-    "id": 10,
+    "id": 110,
     "name": "Gatta Curry",
     "description": "Steamed gram flour dumplings in spicy yogurt gravy — a Rajasthani specialty.",
     "price": 130,
@@ -1163,7 +1163,7 @@
     "rating": "4.2",
     "menu":[
   {
-    "id": 1,
+    "id": 101,
     "name": "Caprese Salad",
     "description": "Fresh mozzarella, tomatoes, and basil drizzled with olive oil and balsamic glaze.",
     "price": 180,
@@ -1171,7 +1171,7 @@
     "serving": "1 plate"
   },
   {
-    "id": 2,
+    "id": 102,
     "name": "Ravioli di Ricotta",
     "description": "Pasta pockets filled with ricotta cheese and spinach, served with tomato sauce.",
     "price": 240,
@@ -1179,7 +1179,7 @@
     "serving": "6 pieces"
   },
   {
-    "id": 3,
+    "id": 103,
     "name": "Gnocchi al Pesto",
     "description": "Soft potato dumplings tossed in basil pesto sauce and garnished with parmesan.",
     "price": 220,
@@ -1187,7 +1187,7 @@
     "serving": "1 bowl"
   },
   {
-    "id": 4,
+    "id": 104,
     "name": "Risotto ai Funghi",
     "description": "Creamy risotto cooked with wild mushrooms, garlic, and white wine.",
     "price": 260,
@@ -1195,7 +1195,7 @@
     "serving": "1 bowl"
   },
   {
-    "id": 5,
+    "id": 105,
     "name": "Polenta with Marinara",
     "description": "Soft cornmeal polenta served with tangy marinara sauce and herbs.",
     "price": 190,
@@ -1203,7 +1203,7 @@
     "serving": "1 plate"
   },
   {
-    "id": 6,
+    "id": 106,
     "name": "Prosciutto e Melone",
     "description": "Thinly sliced cured ham served with chilled sweet melon.",
     "price": 210,
@@ -1211,7 +1211,7 @@
     "serving": "1 plate"
   },
   {
-    "id": 7,
+    "id": 107,
     "name": "Calzone",
     "description": "Folded pizza stuffed with cheese, tomato sauce, and assorted fillings.",
     "price": 230,
@@ -1219,7 +1219,7 @@
     "serving": "1 piece"
   },
   {
-    "id": 8,
+    "id": 108,
     "name": "Panna Cotta",
     "description": "Silky vanilla cream dessert topped with berry sauce or caramel.",
     "price": 160,
@@ -1227,7 +1227,7 @@
     "serving": "1 cup"
   },
   {
-    "id": 9,
+    "id": 109,
     "name": "Arancini",
     "description": "Crispy fried rice balls filled with cheese or meat, a Sicilian classic.",
     "price": 150,
@@ -1235,7 +1235,7 @@
     "serving": "3 pieces"
   },
   {
-    "id": 10,
+    "id": 110,
     "name": "Focaccia Bread",
     "description": "Oven-baked Italian bread topped with olive oil, rosemary, and sea salt.",
     "price": 120,
