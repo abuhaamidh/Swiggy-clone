@@ -138,14 +138,16 @@
 .search::placeholder{
      color:grey;
      padding-left: 20px;
-     opacity: 50%;
+     opacity: 80%;
+     font-family:'poppins', sans-serif;
+     font-weight: bold;
   
 }
 
  #searchbtn {
   height: 80px;
   width: 20px;
-  opacity: 60%;
+  opacity: 90%;
   border: none;
   margin-left: 35.5rem;
   margin-top: -90px;

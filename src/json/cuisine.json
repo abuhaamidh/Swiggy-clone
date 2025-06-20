@@ -34,14 +34,10 @@
         "name":"Arab", 
         "image":"https://png.pngtree.com/png-clipart/20231102/original/pngtree-traditional-middle-eastern-food-png-image_13494321.png"
     },
-    {
-         "id" : 108,
-        "name":"Cakes", 
-        "image":"https://t4.ftcdn.net/jpg/06/78/12/01/360_F_678120157_GwrkDJE19x77N2BiSrsml6pN4ef94o8x.jpg"
-    },
+   
     {
          "id" : 109,
-        "name":"Ice Cream", 
+        "name":"Dessert", 
         "image":"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS8zDHhljl3ZkMzTE79oUO59rKH-YXkX7Y2tA&s"
     },
     {

@@ -109,12 +109,15 @@ function Home() {
           {...getMenuProps()}
           style={{
           listStyle: "none",
-          margin: 0,
+          marginLeft: '17px',
           padding: 0,
           border: isOpen ? "1px solid #ccc" : "none",
           borderTop: "none",
           maxHeight: "150px",
           overflowY: "auto",
+          width:'37.7rem',
+          borderRadius:'15px',
+          opacity:'95%'
         }}
           >
             {isOpen &&
@@ -126,6 +129,13 @@ function Home() {
                 padding: "8px",
                 backgroundColor: highlightedIndex === index ? "#f7e2d9" : "white",
                 cursor: "pointer",
+                fontWeight:'bold',
+                fontSize:'14px',
+                height:'40px',
+                color:'grey',
+                paddingLeft:'30px',
+                fontFamily:"'poppins', sans-serif"
+                
               }}
               >
                 {item}

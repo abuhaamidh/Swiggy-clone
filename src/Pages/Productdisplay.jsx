@@ -7,22 +7,25 @@ import menu from '../Pages/Menu'
 import Data from "../json/product.json"
 import { TbCircleDashedPercentage } from "react-icons/tb";
 import { MdStars } from "react-icons/md";
+import { useParams } from 'react-router-dom'
 
 
 
 function Productdisplay() {
-  const [product,setProduct] = useState([]);
+  const [product, setProduct] = useState([]);
   const usenavigate = useNavigate();
   const uselocation = useLocation();
-  const [data,setData] = useState();
-
+  const [data, setData] = useState();
+  const {cuisine} = useParams();
+  
   const locationInput = uselocation.state?.input;
 
   useEffect(()=>{
-    setProduct(Data) 
-    //console.log("Loaded Data:", Data);
+    // const found = product.find((item) => String(item.name) === String(cuisine));   
+    setProduct(Data)
+    
   },[]);
-
+ 
   //console.log("product in render:", product);
  
   const navigate = useNavigate();

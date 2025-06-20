@@ -1,13 +1,24 @@
 import { useState, useRef } from "react";
+import { useNavigate } from "react-router-dom";
 import { useEffect } from "react";
 import Data from '../json/cuisine.json'
 import { Card, Button } from "react-bootstrap";
+import Productdisplay from "../Pages/Productdisplay";
 
 
 function Scrolls() {
 
+  
+
 const [data, setData] = useState([]);
 const scrollRef = useRef();
+const navigate = useNavigate();
+
+
+const handleClick = () => {
+     navigate(`/productdisplay/${Productdisplay.cuisine}`)
+     
+  }
 
  const scroll = (scrollOffset) =>{
       if(scrollRef.current){
@@ -17,7 +28,7 @@ const scrollRef = useRef();
 
  useEffect(() => {
    setData(Data);
-     console.log("Are the data loaded:" , data);
+    //  console.log("Are the data loaded:" , data);
      
  },[])
 
@@ -37,7 +48,7 @@ const scrollRef = useRef();
           }
          }).map((e) =>(
 
-      <Card style={{width:"10em",border:"none"}} className="cardsScroll">
+      <Card style={{width:"10em",border:"none"}} className="cardsScroll" onClick={() => handleClick(e)}>
       <Card.Img style={{borderRadius:"70%", width:"150px", height:"150px"}} variant="top" src={e.image} />
       <Card.Body>
         <Card.Title style={{textAlign:"center", paddingTop:"20px", fontFamily:"'Poppins', sans-serif", color:"grey"}}>{e.name}</Card.Title>
