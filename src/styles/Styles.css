@@ -288,9 +288,7 @@
   justify-content: center;
   transition: background 0.2s;
 }
-.scroll-btn:hover{
-    background-color: ;
-}
+
 .scroll-btn1 {
   background:whitesmoke;
   color:black ;

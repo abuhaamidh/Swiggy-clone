@@ -8,10 +8,18 @@ import { DiAtom } from "react-icons/di";
 import { CiSearch } from "react-icons/ci";
 import axios from "axios";
 import { useParams } from "react-router-dom";
+import { useDispatch, useSelector } from "react-redux";
+import { addItem } from "../redux/features/cart.feature";
 
 
 
 function Menudisplay(){
+    
+    const dispatch = useDispatch();
+    const cartItems = useSelector((state) => 
+        state.cart.items
+    );
+    console.log(cartItems)
 
     const [data, setData] = useState([]);
     const { id } = useParams();
@@ -19,6 +27,9 @@ function Menudisplay(){
     // const item = data.find((item) => String(item.id) === String(id));
 
   
+   function addItemCart(val) {
+      dispatch(addItem(val))
+   }
 
     useEffect(() => {
 
@@ -82,7 +93,7 @@ function Menudisplay(){
                     <div className='menu-section'style={{maxHeight:'15rem'}}>
                     <p style={{fontWeight:'bold',fontFamily:"'Outfit', sans-serif"}}>{item.name}</p>
                     <p style={{fontFamily:"'Outfit', sans-serif"}}>₹{item.price}</p>
-                    <button >ADD</button>
+                    <button onClick={() => addItemCart(item)}>ADD</button>
                     <span id="customisable">Customisable</span>
                     <p style={{fontFamily:"'poppins', sans-serif", width:"25rem", fontSize:'13px',marginTop:'-5rem'}}>{item.description}</p>
                     <p style={{fontFamily:"'poppins', sans-serif", width:'80px',   fontSize:'13px' }}>{item.serving}</p>
