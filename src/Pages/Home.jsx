@@ -161,6 +161,29 @@ function Home() {
         </p>
       ))}
       </div>
+      <p style={{borderTop:'1px solid black', width:"80%", marginLeft:'8rem'}}></p>
+      <div style={{backgroundColor:'whitesmoke', marginTop:'-16.7px', height:'300px', display:'flex'}}>
+        <h5 style={{fontWeight:'bolder',fontSize:'27px', paddingTop:'40px', paddingLeft:'15rem'}}>
+          For better experience,download the Swiggy app now</h5>
+        <img style={{height:'65px', width:'165px', marginTop:'26px', marginLeft:'15px'}}
+         src="https://deonde.co/blog/wp-content/uploads/2023/09/Available-on-Google-Play-store-button.png"></img>
+         
+         <img style={{height:'65px', width:'180px', paddingLeft:'20px', marginTop:'26px', marginLeft:'10px'}}
+         src="https://upload.wikimedia.org/wikipedia/commons/thumb/3/3c/Download_on_the_App_Store_Badge.svg/2560px-Download_on_the_App_Store_Badge.svg.png"></img>
+      </div>
+      <div className="footer-grid" style={{
+        backgroundColor:'whitesmoke'
+      }}>
+         <img className="footer-swiggy-logo"src="https://upload.wikimedia.org/wikipedia/commons/a/a0/Swiggy_Logo_2024.webp"></img>
+        <p style=
+        {{opacity:'85%',
+         fontFamily:"'poppins', sans-serif",
+         marginTop:'-6rem',
+         fontSize:'15px',
+         marginLeft:'12.8rem'
+         }}>© 2025 Swiggy Limited</p>
+         <ul></ul>
+      </div>
     </div>
   );
 }
