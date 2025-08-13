@@ -324,3 +324,74 @@ function Home() {
 }
 
 export default Home;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+// {/* <button id="search-btn">  /* onClick={() => searchRestaurant()} */
+//     <TbSearch />
+//    </button> */}
+
+// {/* <div class="dropdown-center">
+//         <button
+//           class="btn btn-secondary dropdown-toggle"
+//           type="button"
+
+//           data-bs-toggle="dropdown"
+//           aria-expanded="false"
+//           style={{
+//             width: "300px",
+//             height: "65px",
+//             backgroundColor: "white",
+//             borderRadius: "15px",
+//             border: "none",
+//             marginTop: "40px",
+//             marginLeft: "10%",
+//           }}
+//         >
+//           <p id="eydl" style={{ color: "grey", marginTop: "11px" }}>
+//             <ImLocation style={{ color: "grey" }} /> Enter your delivery
+//             location
+//           </p>
+//         </button>
+//         <ul class="dropdown-menu" style={{ opacity: "60%" }}>
+//           <li>
+//             <a class="dropdown-item" href="#">
+//               Marathahalli
+//             </a>
+//           </li>
+//           <li>
+//             <a class="dropdown-item" href="#">
+//               Koramangala
+//             </a>
+//           </li>
+//           <li>
+//             <a class="dropdown-item" href="#">
+//               Indira Nagar
+//             </a>
+//           </li>
+//           <li>
+//             <a class="dropdown-item" href="#">
+//               Brookfield
+//             </a>
+//           </li>
+//         </ul> */}
+
