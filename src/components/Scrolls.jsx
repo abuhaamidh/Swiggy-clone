@@ -15,8 +15,8 @@ const scrollRef = useRef();
 const navigate = useNavigate();
 
 
-const handleClick = () => {
-     navigate(`/productdisplay/${Productdisplay.cuisine}`)
+const handleClick = (cuisine) => {
+     navigate(`/productdisplay/${cuisine}`)
      
   }
 
@@ -48,7 +48,7 @@ const handleClick = () => {
           }
          }).map((e) =>(
 
-      <Card style={{width:"10em",border:"none"}} className="cardsScroll" onClick={() => handleClick(e)}>
+      <Card style={{width:"10em",border:"none"}} className="cardsScroll" onClick={() => handleClick(e.name)}>
       <Card.Img style={{borderRadius:"70%", width:"150px", height:"150px"}} variant="top" src={e.image} />
       <Card.Body>
         <Card.Title style={{textAlign:"center", paddingTop:"20px", fontFamily:"'Poppins', sans-serif", color:"grey"}}>{e.name}</Card.Title>
